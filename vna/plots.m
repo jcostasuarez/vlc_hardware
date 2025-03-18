@@ -2,7 +2,7 @@
 clc; clear; close all;
 
 fsize1 = 32;
-fsize2 = 48;
+fsize2 = 60;
 lwidth = 2;
 msize1 = 16;
 mindex = 10;
@@ -255,20 +255,19 @@ set(gca,'TickLabelInterpreter','latex');
 
 fig10 = figure(WindowState=window);
 plot(freq_t2_bga_t3_fca_led_sfh_ltc_bga, s11_t2_bga_t3_fca_led_sfh_ltc_bga, ...
-    LineWidth=lwidth, Marker="square", MarkerSize=msize1, ...
+    LineWidth=3.5, Marker="square", MarkerSize=20, ...
     DisplayName="$|S_{11}|$", MarkerIndices=1:mindex:length(freq_t2_bga_t3_fca_led_sfh_ltc_bga)); hold on;
 plot(freq_t2_bga_t3_fca_led_sfh_ltc_bga, s21_t2_bga_t3_fca_led_sfh_ltc_bga, ...
-    LineWidth=lwidth, Marker="x", MarkerSize=msize1, ...
+    LineWidth=3.5, Marker="x", MarkerSize=20, ...
     DisplayName="$|S_{21}|$", MarkerIndices=1:mindex:length(freq_t2_bga_t3_fca_led_sfh_ltc_bga)); hold on;
 
-lgd = legend(Interpreter="latex", FontSize=fsize1, Location="southeast");
-lgd.NumColumns = 2;
-title(lgd, "Sistema completo", Interpreter="latex");
-ylabel("Par\'ametros S [dB]", FontSize=fsize1, Interpreter="latex");
-xlabel("Frecuencia [MHz]", FontSize=fsize1, Interpreter="latex");
+lgd = legend(Interpreter="latex", FontSize=fsize2, Location="southeast");
+lgd.NumColumns = 1;
+ylabel("Par\'ametros S [dB]", FontSize=fsize2, Interpreter="latex");
+xlabel("Frecuencia [MHz]", FontSize=fsize2, Interpreter="latex");
 xlim([min(freq_t3_bga_fca_led_sfh_ltc_bga), max(freq_t3_bga_fca_led_sfh_ltc_bga)])
 grid on;
-fontsize(gca, fsize1, "points");
+fontsize(gca, fsize2, "points");
 set(gca,'TickLabelInterpreter','latex');
 
 %% Saving as pdf
@@ -284,3 +283,5 @@ if (plotPDF)
     exportgraphics(fig9, 'pdf/full_error.pdf', ContentType='vector');
     exportgraphics(fig10, 'pdf/full_ok.pdf', ContentType='vector');
 end
+
+close all;

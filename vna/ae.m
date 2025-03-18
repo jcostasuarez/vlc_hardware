@@ -2,7 +2,7 @@
 % Ploteo de las mediciones del analizador de espectro
 clc; clear; close all;
 
-fsize = 48;
+fsize = 60;
 lwidth = 2;
 msize=16;
 window="maximized";
@@ -59,19 +59,19 @@ set(gca,'TickLabelInterpreter','latex');
 %% Medición del sistema completo con T2 + T3
 fig2 = figure(WindowState=window);
 plot(freq_input, amplitude_input, ...
-    LineWidth=2, Marker="square", MarkerSize=msize, Color=blue2, ...
+    LineWidth=3.5, Marker="square", MarkerSize=20, ...
     DisplayName="Entrada", MarkerIndices=1:mindex:length(freq_input)); hold on;
 plot(freq_t2_t3, amplitude_t2_t3, ...
-    LineWidth=2, Marker="o", MarkerSize=msize, Color=green2, ...
+    LineWidth=3.5, Marker="o", MarkerSize=20, ...
     DisplayName="Salida", MarkerIndices=1:mindex:length(freq_input)); hold on;
 
 lgd = legend(Interpreter="latex", FontSize=fsize, Location="northeast");
 lgd.NumColumns = 2;
-title(lgd, "Se\~nal OFDM del sistema completo", Interpreter="latex");
+title(lgd, "Se\~nal OFDM", Interpreter="latex");
 ylabel("Amplitud [dBm]", Interpreter="latex", FontSize=fsize);
 xlabel("Frecuencia [MHz]", Interpreter="latex", FontSize=fsize);
 xlim([min(freq_input), max(freq_input)]);
-ylim([-80, -0]);
+ylim([-80, 0]);
 grid on;
 fontsize(gca, fsize, "points");
 set(gca,'TickLabelInterpreter','latex');
