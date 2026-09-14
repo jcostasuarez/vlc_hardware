@@ -1,0 +1,43 @@
+* Full optical link with parametric LED-photodiode distance:
+* Pitaya -> PRE -> discrete amp -> BIAS-TEE -> LED -> free space (D) -> PD -> TIA -> RX amp
+.include ../models/bfr740l3rh.lib
+.include ../models/lmh34400.lib
+.include ../models/bga616.lib
+.include ../models/preemphasis.sub
+.include ../models/tx_amp.sub
+.include ../models/bias_tee.sub
+.include ../models/led_equiv.sub
+.include ../models/rx_amp.sub
+.param VCC=3.3
+* optical channel (parametric distance)
+.param D=0.5
+.param K0=1e-3
+.param K={K0/(D*D)}
+* ---- transmitter ----
+Vsrc src 0 dc 0 ac 1
+Rs   src in 50
+XPRE in p1 0 PREEMPHASIS
+XAMP p1 n1 vcc 0 TXAMP
+Vbias vbias 0 {VCC} ac 0
+Rdcn1 n1 0 1e9
+XBT  n1 vbias nled 0 BIAS_TEE
+Vsense nled a 0
+Cdcl a a2 1u
+Rdc  a 0 1e9
+XLED a2 0 LED_EQ
+* ---- optical channel: i_pd = K * i_led, K = K0 / D^2 ----
+Fpd  0 npd Vsense {K}
+Rnpd npd 0 1e9
+Cdc2 npd pd 1u
+Rpd  pd 0 1e9
+Cd   pd 0 1p
+* ---- receiver ----
+Vdd  vdd 0 {VCC}
+Ven  nen 0 0
+Valc nidc 0 3.3
+XU1  pd vdd nen nidc 0 tiaout LMH34400
+Vrx  vccrx 0 5
+XRX  tiaout out vccrx 0 RXAMP
+Rl   out 0 50
+.ac dec 100 1M 1G
+.end

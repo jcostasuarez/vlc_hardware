@@ -22,5 +22,7 @@ run sim/system/rx_chain.cir                      --vec v\(out\)
 run sim/system/rx_chain_noise.cir                --noise
 run sim/system/link.cir                          --vec v\(out\)
 run sim/system/link_tran.cir                     --vec v\(out\)
+run sim/system/optical_channel.cir               --vec i\(vpd\)
+run sim/system/link_channel.cir                  --vec v\(out\)
 
 python3 scripts/summarize_sims.py "$out"

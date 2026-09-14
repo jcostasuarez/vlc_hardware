@@ -14,6 +14,8 @@ Supuestos de los modelos en `sim/README.md`.
 | `preenfasis__filtro_t` | 1e+05..5e+08 Hz | 0.5 | 5.22e+07 Hz | 8.28e+07 Hz |
 | `rx_amp` | 1e+05..1e+10 Hz | 8.9 | 8.91e+09 Hz | > banda |
 | `system__link` | 1e+03..1e+09 Hz | 0.682 | 5.25e+07 Hz | 8.71e+07 Hz |
+| `system__link_channel` | 0.001..1e+09 Hz | 2.73 | 5.25e+07 Hz | 8.71e+07 Hz |
+| `system__optical_channel` | 0.001..1e+09 Hz | 0.004 | 0.001 Hz | > banda |
 | `system__rx_chain` | 1e+03..1e+09 Hz | 7.02e+05 | 2.09e+06 Hz | 2.04e+08 Hz |
 | `system__tx_chain` | 1e+04..1e+09 Hz | 0.00101 | 5.25e+07 Hz | 8.51e+07 Hz |
 | `system__tx_chain_fca` | 1e+04..1e+09 Hz | 0.00085 | 1.32e+06 Hz | 2.75e+06 Hz |

@@ -129,3 +129,28 @@ Resultados destacados (ver `docs/sim/RESULTS.md`):
 > Nota: la FCA tiene dos juegos de valores según el esquema. El netlist raíz
 > (`LumiCom_Transmitter.kicad_sch`, usado por el PCB) da R11=402/R9=133; la hoja
 > `Amplifier.kicad_sch` da 390/120. El deck usa los del netlist raíz.
+
+## Canal óptico LED ↔ fotodiodo (distancia paramétrica)
+
+`sim/system/optical_channel.cir` modela el enlace óptico LOS (Lambertiano en
+eje): `i_pd = K·i_LED`, con `K = K0/D²` (ley del cuadrado inverso) y `D` la
+distancia en metros (`K0` = fotocorriente/corriente de LED a 1 m; calibración
+absoluta libre). La demora `D/c` es solo fase para un canal de frecuencia única y
+no cambia la magnitud.
+
+`sim/system/link_channel.cir` es la **cadena completa** con ese canal:
+Pitaya → PRE → amplificador discreto → BIAS-TEE → LED → espacio libre (D) →
+PD → TIA LMH34400 → rx_amp. Con `D = 0,5 m` da un **canal centrado en 50 MHz**
+(≈2,7 V/V a 50 MHz).
+
+Barrido de distancia (`scripts/sweep_optical_distance.py`):
+
+| D [m] | \|Vout/Vin\| @50 MHz | relativo (1/D²) |
+|---:|---:|---:|
+| 0,10 | 67,7 | 25,0 |
+| 0,25 | 10,8 | 4,0 |
+| 0,50 | 2,71 | 1,0 |
+| 1,00 | 0,677 | 0,25 |
+| 2,00 | 0,169 | 0,0625 |
+
+La distancia se cambia con `.param D=<m>` en los dos decks.

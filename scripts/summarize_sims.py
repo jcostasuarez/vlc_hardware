@@ -50,7 +50,8 @@ def main():
              '## Respuesta en frecuencia (AC)', '',
              '| Deck | Banda simulada | Pico | Frecuencia del pico | Ancho de banda a -3 dB |',
              '|---|---|---:|---:|---:|']
-    ac_globs = ('*ac.dat', '*__link.dat', '*__tx_chain.dat', '*__tx_chain_fca.dat', '*__rx_chain.dat')
+    ac_globs = ('*ac.dat', '*__link.dat', '*__link_channel.dat', '*__optical_channel.dat',
+                 '*__tx_chain.dat', '*__tx_chain_fca.dat', '*__rx_chain.dat')
     ac_files = sorted({f for g in ac_globs for f in glob.glob(str(outdir / g))})
     for path in ac_files:
         rows = read_cols(path, 3)
