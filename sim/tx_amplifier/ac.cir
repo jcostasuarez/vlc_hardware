@@ -1,0 +1,24 @@
+* TX amplifier - AC (values from Transmitter/AMP/tx_amplifier.kicad_sch)
+* BFR740L3RH common emitter with the board bias/matching network, 3.3 V.
+.include ../models/bfr740l3rh.lib
+.param VCC=3.3
+Vcc  vcc 0 {VCC}
+Vin  src 0 dc 0 ac 1
+Rs   src in 50
+C1   in b 1u
+R4   b n6 910
+C6   n6 c 220n
+R2   b nb 39k
+R3   c nb 160
+R1   nb vcc 47
+C2   nb 0 220n
+* output matching
+L1   c c5 22n
+C3   c 0 8.2p
+C4   0 c4 4.7p
+L2   c5 c4 9.1n
+C5   c5 out 1u
+Rl   out 0 50
+XQ1  c b 0 BFR740L3RH
+.ac dec 200 1k 10G
+.end

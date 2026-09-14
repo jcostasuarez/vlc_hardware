@@ -1,0 +1,18 @@
+* LED bias-T - AC insertion (values from Transmitter/LED/LED.kicad_sch)
+* C1=C2=0.1u coupling, L1=206n bias feed, LED equivalent (Li et al. 2019)
+V1   src 0 dc 0 ac 1
+Rs   src rf 50
+C1   rf n1 0.1u
+L1   vdd n1 206n
+Vdd  vdd 0 dc 3.3 ac 0
+* LED equivalent circuit
+R8   n1 a 1.35
+L3   a b 0.99n
+R9   b c 0.54
+C4   b c 130n
+R10  c 0 0.39
+* RF through path
+C2   n1 rf2 0.1u
+Rl   rf2 0 50
+.ac dec 200 100k 10G
+.end

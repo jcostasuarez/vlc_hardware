@@ -1,0 +1,22 @@
+* FCA channel A - AC (OPA2675)
+* Board values: R9=R10=133, R11=R12=402 (G=1+402/133=4.02), R7=49.9,
+* R4=R5=5.1k, C4=C6=C8=C9=0.1u, VCC=5V.
+.include ../models/opamp_2pole.sub
+.param VCC=5
+Vcc  vcc 0 {VCC}
+Vin  src 0 dc 0 ac 1
+Rs   src in 50
+C4   in npi 0.1u
+R7   npi npi2 49.9
+C6   npi2 0 0.1u
+R4   vcc npi2 5.1k
+R5   npi2 0 5.1k
+XU   npi2 nni outa vcc 0 OPAMP2P a0=1e5 fp1=10k fp2=1e9 rout=10 en=4n in=1p cin=1.5p
+R11  nni outa 402
+R9   nni c8 133
+C8   c8 0 0.1u
+C9   outa o1 0.1u
+R13  o1 out 1
+Rl   out 0 50
+.ac dec 100 10k 5G
+.end

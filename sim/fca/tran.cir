@@ -1,0 +1,21 @@
+* FCA channel A - transient (10 MHz small signal)
+.include ../models/opamp_2pole.sub
+.param VCC=5
+Vcc  vcc 0 {VCC}
+Vin  src 0 dc 0 sin(0 10m 10k)
+Rs   src in 50
+C4   in npi 0.1u
+R7   npi npi2 49.9
+C6   npi2 0 0.1u
+R4   vcc npi2 5.1k
+R5   npi2 0 5.1k
+XU   npi2 nni outa vcc 0 OPAMP2P a0=1e5 fp1=10k fp2=1e9 rout=10 en=4n in=1p cin=1.5p
+R11  nni outa 402
+R9   nni c8 133
+C8   c8 0 0.1u
+C9   outa o1 0.1u
+R13  o1 out 1
+Rl   out 0 50
+.options method=gear
+.tran 1u 1m 0 1u
+.end

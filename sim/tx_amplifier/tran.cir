@@ -1,0 +1,23 @@
+* TX amplifier - transient (500 MHz small signal)
+.include ../models/bfr740l3rh.lib
+.param VCC=3.3
+Vcc  vcc 0 {VCC}
+Vin  src 0 dc 0 sin(0 1m 500Meg)
+Rs   src in 50
+C1   in b 1u
+R4   b n6 910
+C6   n6 c 220n
+R2   b nb 39k
+R3   c nb 160
+R1   nb vcc 47
+C2   nb 0 220n
+L1   c c5 22n
+C3   c 0 8.2p
+C4   0 c4 4.7p
+L2   c5 c4 9.1n
+C5   c5 out 1u
+Rl   out 0 50
+XQ1  c b 0 BFR740L3RH
+.options method=gear reltol=1e-5
+.tran 2p 20n 0 0.5p
+.end

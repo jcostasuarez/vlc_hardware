@@ -1,0 +1,48 @@
+* opamp_2pole.sub - generic two-pole opamp macromodel for ngspice
+*
+* Board-level model for AC / transient / noise analysis of the VLC boards in
+* ngspice.  The vendor macro-models (TI PSpice, ADI/LTspice) use tool-specific
+* devices and do not run in ngspice, so this model reproduces the dominant
+* behaviour of the part from datasheet-style parameters.
+*
+* Input-referred noise is represented with thermal-noise resistors so that
+* ngspice's .noise analysis accounts for it:
+*     en [V/rtHz]  -> series resistor      Ren = en^2 / (4kT)
+*     in [A/rtHz]  -> buffered resistor    Rin = 4kT / in^2
+* The current-noise resistor is driven by a unity buffer across the input, so it
+* injects the noise current without loading the virtual-ground input node.
+* The two poles are made with 1 ohm RC sections, whose own thermal noise is
+* negligible (<0.13 nV/rtHz) and is divided by the open-loop gain.
+*
+* Pins: inp inm out vp vn        (vp/vn accepted for netlist compatibility)
+* Defaults describe a generic 4 GHz-GBW CMOS opamp (e.g. LTC6268-class).
+*
+.subckt OPAMP2P inp inm out vp vn
++ params: a0=1e5 fp1=40k fp2=2e9 rout=10 en=4n in=1f cin=1.5p
+.param PI=3.141592653589793
+.param KT=4.141947e-21
+.param REN={en*en/KT}
+.param RIN={KT/(in*in)}
+.param CP1={1/(2*PI*fp1)}
+.param CP2={1/(2*PI*fp2)}
+* input voltage-noise equivalent resistance (series with each input)
+Renp inp nip {REN}
+Renm inm nim {REN}
+Cip  nip 0 {cin}
+Cim  nim 0 {cin}
+* input current-noise equivalent resistance, buffered to avoid loading
+Ebup bufp 0 nip 0 1
+Ebum bufm 0 nim 0 1
+Rinp nip bufp {RIN}
+Rinm nim bufm {RIN}
+* open-loop gain and two poles
+E0  g0 0 nip nim {a0}
+Rp1 g0 g1 1
+Cp1 g1 0 {CP1}
+Eb1 g2 0 g1 0 1
+Rp2 g2 g3 1
+Cp2 g3 0 {CP2}
+Eb2 o1 0 g3 0 1
+Rout o1 out {rout}
+Rdc  out 0 1e12
+.ends OPAMP2P

@@ -1,0 +1,18 @@
+* Pre-emphasis T filter - AC (values from Transmitter/PRE/preenfasis.kicad_sch)
+* Bridged-T: R=825, C=62p, L=150n, R2=3, R3/R4=49.9 (50 ohm system)
+V1  src 0 dc 0 ac 1
+Rs  src j1 50
+* main bridge
+R1  j1 j2 825
+* series C-L branch
+C1  j1 c1 62p
+L1  c1 j2 150n
+* second bridge 49.9/49.9 with 3 ohm to the L-C shunt
+R3  j1 m 49.9
+R4  m j2 49.9
+R2  m c2 3
+C2  c2 0 62p
+L2  c2 0 150n
+Rl  j2 0 50
+.ac dec 200 100k 500Meg
+.end

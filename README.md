@@ -84,6 +84,23 @@ Genera en `build/fabrication/<proyecto>/`:
 El script **falla** si ERC o DRC reportan errores. Con `STRICT=1` también falla
 ante avisos.
 
+## Simulaciones (ngspice)
+
+Todas las simulaciones están unificadas en una única suite **ngspice**,
+reproducible y sin GUI (`sim/`):
+
+```bash
+scripts/run_all_sims.sh                        # corre todo -> build/sim/
+python3 scripts/run_spice.py sim/ltc6268-10/noise.cir --outdir build/sim --noise
+python3 scripts/summarize_sims.py build/sim    # métricas -> docs/sim/RESULTS.md
+```
+
+`scripts/run_spice.py` usa la `libngspice` que viene con KiCad vía `ctypes`; no
+requiere un binario `ngspice`. Incluye respuesta en frecuencia, transitorios y
+**análisis de ruido** de las TIA (`lmh34400`, `ltc6268-10`). Los modelos, los
+supuestos y la fidelidad de cada deck están en [sim/README.md](sim/README.md), y
+los resultados en [docs/sim/RESULTS.md](docs/sim/RESULTS.md).
+
 ## Estado de revisión
 
 Las ocho placas pasan **ERC y DRC con 0 errores y 0 avisos**, incluyendo DRC con

@@ -1,0 +1,27 @@
+* tia_block.sub - transimpedance gain block for ngspice (board-level)
+*
+* Models a complete TIA (internal feedback) as a two-pole opamp with an
+* internal Rf/Cf.  Used for parts whose vendor model is not ngspice-compatible
+* (e.g. LMH34400).  Input voltage/current noise are handled by OPAMP2P.
+*
+* Parameters:
+*     zt   transimpedance gain [V/A]
+*     fp   -3 dB bandwidth of the closed loop [Hz]
+*     en   input voltage noise density [V/rtHz]
+*     in   input current noise density [A/rtHz]
+*     cin  input capacitance [F]
+*     a0   opamp DC gain
+*
+.subckt TIABLK in out vp vn
++ params: zt=20k fp=240Meg en=2.35n in=2.5p cin=1.5p a0=1e5 rout=0.1
+.param PI=3.141592653589793
+.param CTOT=8.0p   ! includes ~5p photodiode + 1.5p opamp input
+.param GBW={(2*PI*zt*CTOT)*fp*fp}
+.param FP1={GBW/a0}
+XOP 0 in nint vp vn OPAMP2P a0={a0} fp1={FP1} fp2=5e9 rout=10
++ en={en} in={in} cin={cin}
+Rf  nint in {zt}
+Cf  nint in {1/(2*PI*fp*zt)}
+Ro  nint out {rout}
+Rdc out 0 1e12
+.ends TIABLK

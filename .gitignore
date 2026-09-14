@@ -38,3 +38,35 @@ build/
 # Python bytecode
 __pycache__/
 *.pyc
+
+# ---------------------------------------------------------------------------
+# Simulation outputs (regenerable).  Sources are kept: *.asc *.lib *.s2p *.opj
+# *.olb.  ngspice decks live in sim/ and are excluded from the *.cir rule.
+# ---------------------------------------------------------------------------
+*.raw
+*.op.raw
+*.plt
+*.db
+*.DBK
+*.OBK
+*.out
+*.out.1
+*.dat
+*.1OP
+*.als
+*.prb
+*.mrk
+*.mif
+*.sim
+*.prp
+*.ind
+*.libsig
+*.liberrorLog
+*.symwiz.log
+*.err
+*.log
+*.cir
+!sim/**/*.cir
+**/*PSpiceFiles*/**/*.json
+libbackup/
+

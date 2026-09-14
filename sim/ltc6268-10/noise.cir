@@ -1,0 +1,17 @@
+* LTC6268-10 TIA - noise (output + input-referred)
+.include ../models/opamp_2pole.sub
+.param VCC=5
+Vcc  vcc 0 {VCC}
+Rb1  vcc nb 10k
+Rb2  nb 0 10k
+Cb   nb 0 10u
+Iph  0 in ac 1
+Cd   in 0 5p
+Rsh  in 0 1e9
+XC1  in nb out vcc 0 OPAMP2P a0=1e5 fp1=40k fp2=2e9 rout=10 en=4n in=1f cin=1.5p
+Rf   out in 3k
+Cf   out in 0.2p
+Ro   out o50 49.9
+Rl   o50 0 50
+.noise v(o50) Iph dec 50 1k 500Meg
+.end

@@ -1,0 +1,21 @@
+* LTC6268-10 TIA - AC transimpedance
+* Values taken from Receiver/TIA/LTC6268-10/LTC6268-10.kicad_sch
+*   Rf1=3k  Cf1=0.2p  VCC=5V  +IN biased at VCC/2 (R3=R4=10k)
+.include ../models/opamp_2pole.sub
+.param VCC=5
+Vcc  vcc 0 {VCC}
+Rb1  vcc nb 10k
+Rb2  nb 0 10k
+Cb   nb 0 10u
+* photodiode (representative: Cd=5p, Rsh=1G)
+Iph  0 in ac 1
+Cd   in 0 5p
+Rsh  in 0 1e9
+* opamp: LTC6268-10 (4 GHz GBW, en=4n, CMOS in=1f)
+XC1  in nb out vcc 0 OPAMP2P a0=1e5 fp1=40k fp2=2e9 rout=10 en=4n in=1f cin=1.5p
+Rf   out in 3k
+Cf   out in 0.2p
+Ro   out o50 49.9
+Rl   o50 0 50
+.ac dec 100 1k 1G
+.end
