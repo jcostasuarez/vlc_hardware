@@ -5,7 +5,7 @@
 	(uuid "0b3dd78d-2de6-40f4-add8-a9606473fea7")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:C"
+		(symbol "preenfasis:C"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254)
@@ -141,7 +141,7 @@
 				)
 			)
 		)
-		(symbol "Device:L"
+		(symbol "preenfasis:L"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
@@ -298,7 +298,7 @@
 				)
 			)
 		)
-		(symbol "Device:R_US"
+		(symbol "preenfasis:R_US"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0)
@@ -848,7 +848,7 @@
 		(uuid "ca6fcde6-d21c-41a4-8287-ce20d6c35b5c")
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "preenfasis:R_US")
 		(at 144.78 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -875,7 +875,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "preenfasis:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 145.796 96.774 90)
 			(effects
 				(font
@@ -954,7 +954,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
+		(lib_id "preenfasis:L")
 		(at 151.13 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -981,7 +981,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "preenfasis:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 151.13 115.57 0)
 			(effects
 				(font
@@ -1060,7 +1060,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "preenfasis:C")
 		(at 133.35 67.31 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1085,7 +1085,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "preenfasis:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 137.16 66.3448 0)
 			(effects
 				(font
@@ -1164,7 +1164,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "preenfasis:R_US")
 		(at 133.35 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1189,7 +1189,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "preenfasis:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 133.604 82.804 90)
 			(effects
 				(font
@@ -1268,7 +1268,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "preenfasis:C")
 		(at 138.43 114.3 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1295,7 +1295,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "preenfasis:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 137.4648 110.49 0)
 			(effects
 				(font
@@ -1374,7 +1374,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "preenfasis:R_US")
 		(at 156.21 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1399,7 +1399,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "preenfasis:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 156.464 82.804 90)
 			(effects
 				(font
@@ -1478,7 +1478,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "preenfasis:R_US")
 		(at 143.51 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1503,7 +1503,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "preenfasis:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 143.764 57.404 90)
 			(effects
 				(font
@@ -1582,7 +1582,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
+		(lib_id "preenfasis:L")
 		(at 149.86 67.31 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1607,7 +1607,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "preenfasis:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 149.86 67.31 0)
 			(effects
 				(font

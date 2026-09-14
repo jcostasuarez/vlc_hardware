@@ -136,7 +136,7 @@
 	(net 8 "Net-(J2-In)")
 	(net 9 "Net-(C6-Pad1)")
 	(net 10 "+3.3V")
-	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+	(footprint "vlc:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "08c9c612-3158-4a9b-9874-736abd4679ac")
 		(at 110.744 103.124 180)
@@ -164,7 +164,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "vlc:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -398,7 +398,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+	(footprint "vlc:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "0ed33f51-3abf-48be-8630-afaad733feb0")
 		(at 115.544 103.124)
@@ -426,7 +426,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "vlc:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -660,7 +660,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+	(footprint "vlc:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "333b7e39-f15e-4ddd-b642-2361c7a26365")
 		(at 116.2315 111.76)
@@ -688,7 +688,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "vlc:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -922,7 +922,7 @@
 			)
 		)
 	)
-	(footprint "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+	(footprint "vlc:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "35e48d90-5079-4d3b-b2de-7d4a3046f54d")
 		(at 117.969 109.855)
@@ -950,7 +950,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "vlc:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1186,7 +1186,7 @@
 			)
 		)
 	)
-	(footprint "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
+	(footprint "vlc:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
 		(layer "F.Cu")
 		(uuid "3d030038-dd16-4873-bc2f-84f502cad3b6")
 		(at 127.054 109.855 90)
@@ -1214,7 +1214,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
+		(property "Footprint" "vlc:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1726,7 +1726,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+	(footprint "vlc:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "416ac872-dcf5-478f-a725-4ebba74910cd")
 		(at 122.428 109.855)
@@ -1754,7 +1754,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "vlc:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1988,7 +1988,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+	(footprint "vlc:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "56cf0e11-e824-4132-8166-5df0afe1763a")
 		(at 111.76 111.76 180)
@@ -2016,7 +2016,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "vlc:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2250,7 +2250,7 @@
 			)
 		)
 	)
-	(footprint "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
+	(footprint "vlc:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
 		(layer "F.Cu")
 		(uuid "6a5c9126-c707-4ef1-8194-45d51b6ab196")
 		(at 102.816 109.855 -90)
@@ -2278,7 +2278,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
+		(property "Footprint" "vlc:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2790,7 +2790,7 @@
 			)
 		)
 	)
-	(footprint "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
+	(footprint "vlc:TerminalBlock_bornier-2_P5.08mm"
 		(layer "F.Cu")
 		(uuid "8b953bf5-50fb-4cd1-8096-f8e05f37d706")
 		(at 117.08 96 180)
@@ -2818,7 +2818,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
+		(property "Footprint" "vlc:TerminalBlock_bornier-2_P5.08mm"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -3096,7 +3096,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+	(footprint "vlc:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "9d8843d4-d6c2-45b5-b0d0-d11d391cc049")
 		(at 108.9665 109.855)
@@ -3124,7 +3124,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "vlc:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3358,7 +3358,7 @@
 			)
 		)
 	)
-	(footprint "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+	(footprint "vlc:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "a6fc8fa9-bcdb-4773-804f-12e7775ab9e1")
 		(at 122.428 112.014)
@@ -3386,7 +3386,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "vlc:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3622,7 +3622,7 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_3.2mm_M3_ISO7380"
+	(footprint "vlc:MountingHole_3.2mm_M3_ISO7380"
 		(layer "F.Cu")
 		(uuid "b1329df7-c89b-4807-a503-540f48161228")
 		(at 103 92.5)
@@ -3651,7 +3651,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
+		(property "Footprint" "vlc:MountingHole_3.2mm_M3_ISO7380"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3785,7 +3785,7 @@
 			(uuid "7540aeba-7e57-40ca-a7ba-1aab1bfbc14f")
 		)
 	)
-	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+	(footprint "vlc:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "b9aaf496-2635-4f63-81f1-5f39b049d305")
 		(at 110.744 106.172)
@@ -3813,7 +3813,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "vlc:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4047,7 +4047,7 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_3.2mm_M3_ISO7380"
+	(footprint "vlc:MountingHole_3.2mm_M3_ISO7380"
 		(layer "F.Cu")
 		(uuid "c0fcb3e2-4e19-4b39-b16c-3f6c985a5eed")
 		(at 127 92.5)
@@ -4076,7 +4076,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
+		(property "Footprint" "vlc:MountingHole_3.2mm_M3_ISO7380"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4210,7 +4210,7 @@
 			(uuid "86cbc9a3-6742-4805-acf3-1d2688a40864")
 		)
 	)
-	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+	(footprint "vlc:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "c1481d67-e2f3-458a-a4b7-fdc09b22af7c")
 		(at 122.4015 114.3)
@@ -4238,7 +4238,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "vlc:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4472,7 +4472,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+	(footprint "vlc:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "c7507e65-4805-4e14-9901-cafa6974b8b1")
 		(at 122.428 106.045 180)
@@ -4500,7 +4500,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "vlc:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4734,7 +4734,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+	(footprint "vlc:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "e1b414f2-fc35-4628-a779-e810c060ef8d")
 		(at 115.544 106.045 180)
@@ -4762,7 +4762,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "vlc:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4996,7 +4996,7 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_3.2mm_M3_ISO7380"
+	(footprint "vlc:MountingHole_3.2mm_M3_ISO7380"
 		(layer "F.Cu")
 		(uuid "e32792b4-25a7-4c4b-a3ab-c687e0d520d9")
 		(at 127 117.5)
@@ -5025,7 +5025,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
+		(property "Footprint" "vlc:MountingHole_3.2mm_M3_ISO7380"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5159,7 +5159,7 @@
 			(uuid "88ee1ffc-f08d-4802-84e7-65d2bec2abe1")
 		)
 	)
-	(footprint "MountingHole:MountingHole_3.2mm_M3_ISO7380"
+	(footprint "vlc:MountingHole_3.2mm_M3_ISO7380"
 		(layer "F.Cu")
 		(uuid "e516e4ac-4b6b-4c0a-a06e-43d42f17ff50")
 		(at 103 117.5)
@@ -5188,7 +5188,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
+		(property "Footprint" "vlc:MountingHole_3.2mm_M3_ISO7380"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)

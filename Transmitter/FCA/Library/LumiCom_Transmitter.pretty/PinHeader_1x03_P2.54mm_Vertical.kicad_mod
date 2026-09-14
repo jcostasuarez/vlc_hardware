@@ -1,0 +1,441 @@
+(footprint
+	"PinHeader_1x03_P2.54mm_Vertical"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
+	(tags "Through hole pin header THT 1x03 2.54mm single row")
+	(property
+		"Reference"
+		"REF**"
+		(at 0 7.525 0)
+		(layer "F.SilkS")
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 1.1 1.1)
+				(thickness 0.15)
+			)
+		)
+		(render_cache
+			"JP_A1"
+			90
+			(polygon
+				(pts
+					(xy 143.992784 89.656063)
+					(xy 143.988625 89.713984)
+					(xy 143.976148 89.768793)
+					(xy 143.957588 89.81592)
+					(xy 143.929841 89.862954)
+					(xy 143.891896 89.906951)
+					(xy 143.858181 89.934939)
+					(xy 143.767909 89.809472)
+					(xy 143.809161 89.773631)
+					(xy 143.825135 89.748484)
+					(xy 143.84196 89.69672)
+					(xy 143.845285 89.656063)
+					(xy 143.838714 89.599317)
+					(xy 143.816555 89.548274)
+					(xy 143.789671 89.517431)
+					(xy 143.741613 89.487306)
+					(xy 143.686409 89.471906)
+					(xy 143.633307 89.467996)
+					(xy 142.888293 89.467996)
+					(xy 142.888293 89.314587)
+					(xy 143.634113 89.314587)
+					(xy 143.695397 89.317723)
+					(xy 143.751298 89.32713)
+					(xy 143.809711 89.346033)
+					(xy 143.860796 89.373471)
+					(xy 143.89875 89.403785)
+					(xy 143.93539 89.446252)
+					(xy 143.963031 89.495842)
+					(xy 143.981672 89.552554)
+					(xy 143.990488 89.606833)
+				)
+			)
+			(polygon
+				(pts
+					(xy 143.557274 88.965051)
+					(xy 143.411388 88.965051)
+					(xy 143.411388 88.615515)
+					(xy 143.40283 88.559315)
+					(xy 143.374473 88.509801)
+					(xy 143.359535 88.494884)
+					(xy 143.312084 88.465312)
+					(xy 143.258837 88.451396)
+					(xy 143.22359 88.44921)
+					(xy 143.168668 88.454607)
+					(xy 143.117877 88.472805)
+					(xy 143.086032 88.494884)
+					(xy 143.050402 88.540321)
+					(xy 143.035183 88.592735)
+					(xy 143.033911 88.615515)
+					(xy 143.033911 88.965051)
+					(xy 142.888293 88.965051)
+					(xy 142.888293 88.62062)
+					(xy 142.891587 88.566874)
+					(xy 142.902974 88.511891)
+					(xy 142.924894 88.457168)
+					(xy 142.929936 88.447867)
+					(xy 142.962535 88.400977)
+					(xy 143.003069 88.361897)
+					(xy 143.046807 88.333146)
+					(xy 143.096395 88.311469)
+					(xy 143.151125 88.29782)
+					(xy 143.204779 88.292401)
+					(xy 143.22359 88.29204)
+					(xy 143.278243 88.295292)
+					(xy 143.334232 88.306531)
+					(xy 143.385237 88.3258)
+					(xy 143.399566 88.333146)
+					(xy 143.447285 88.365127)
+					(xy 143.487003 88.404917)
+					(xy 143.516168 88.447867)
+					(xy 143.539571 88.501493)
+					(xy 143.552417 88.555478)
+					(xy 143.557234 88.614449)
+					(xy 143.557274 88.62062)
+				)
+			)
+			(polygon
+				(pts
+					(xy 143.9815 89.044039)
+					(xy 142.888293 89.044039)
+					(xy 142.888293 88.89063)
+					(xy 143.9815 88.89063)
+				)
+			)
+			(polygon
+				(pts
+					(xy 143.980962 88.198275)
+					(xy 143.980962 87.572818)
+					(xy 144.126848 87.572818)
+					(xy 144.126848 88.198275)
+				)
+			)
+			(polygon
+				(pts
+					(xy 143.9815 87.520159)
+					(xy 142.888293 87.117159)
+					(xy 142.888293 86.986318)
+					(xy 143.9815 86.583317)
+					(xy 143.9815 86.748547)
+					(xy 143.099465 87.051604)
+					(xy 143.9815 87.35466)
+				)
+			)
+			(polygon
+				(pts
+					(xy 143.74158 87.33451)
+					(xy 143.595693 87.33451)
+					(xy 143.595693 86.759294)
+					(xy 143.74158 86.759294)
+				)
+			)
+			(polygon
+				(pts
+					(xy 142.888293 86.177361)
+					(xy 143.9815 86.177361)
+					(xy 143.9815 86.33077)
+					(xy 143.055135 86.33077)
+					(xy 143.150512 86.486328)
+					(xy 142.991998 86.486328)
+					(xy 142.888293 86.33077)
+				)
+			)
+		)
+	)
+	(property
+		"Value"
+		"PinHeader_1x03_P2.54mm_Vertical"
+		(at 0 7.41 180)
+		(layer "F.Fab")
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 1.1 1.1)
+				(thickness 0.15)
+			)
+		)
+		(render_cache
+			"A1"
+			270
+			(polygon
+				(pts
+					(xy 142.9535 87.276211)
+					(xy 144.046706 87.679212)
+					(xy 144.046706 87.810053)
+					(xy 142.9535 88.213054)
+					(xy 142.9535 88.047823)
+					(xy 143.835534 87.744767)
+					(xy 142.9535 87.44171)
+				)
+			)
+			(polygon
+				(pts
+					(xy 143.193419 87.46186)
+					(xy 143.339306 87.46186)
+					(xy 143.339306 88.037077)
+					(xy 143.193419 88.037077)
+				)
+			)
+			(polygon
+				(pts
+					(xy 144.046706 88.61901)
+					(xy 142.9535 88.61901)
+					(xy 142.9535 88.465601)
+					(xy 143.879864 88.465601)
+					(xy 143.784487 88.310042)
+					(xy 143.943001 88.310042)
+					(xy 144.046706 88.465601)
+				)
+			)
+		)
+	)
+	(property
+		"Footprint"
+		"PinHeader_1x03_P2.54mm_Vertical"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property
+		"Datasheet"
+		""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property
+		"Description"
+		"3-pole 2.54mm pitch jumper"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property ki_fp_filters "Jumper* TestPoint*3Pads* TestPoint*Bridge*")
+	(attr through_hole exclude_from_bom)
+	(fp_line
+		(start -1.33 -1.33)
+		(end 0 -1.33)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "876f615f-4566-4c3e-8dd3-f98e7a73f7a2")
+	)
+	(fp_line
+		(start -1.33 0)
+		(end -1.33 -1.33)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aa8e9a35-c0de-4cf3-9e39-ceab7da3018c")
+	)
+	(fp_line
+		(start 1.33 1.27)
+		(end 1.33 6.41)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "72b301d8-fffc-4396-9014-d0f9f73e3db5")
+	)
+	(fp_line
+		(start -1.33 1.27)
+		(end 1.33 1.27)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "28069a3b-d034-47e2-a727-e4ac0c800d7d")
+	)
+	(fp_line
+		(start -1.33 1.27)
+		(end -1.33 6.41)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6ea9029c-b223-48e1-92e3-e0fd225e4ae7")
+	)
+	(fp_line
+		(start -1.33 6.41)
+		(end 1.33 6.41)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5cc13d7b-45a2-48ae-ada2-7f50be8b6f3b")
+	)
+	(fp_line
+		(start 1.8 -1.8)
+		(end -1.8 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a668a109-408b-4cb0-9932-b35a8539ef66")
+	)
+	(fp_line
+		(start -1.8 -1.8)
+		(end -1.8 6.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8473be04-a415-4730-8f2c-b044218c7b62")
+	)
+	(fp_line
+		(start 1.8 6.85)
+		(end 1.8 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b728a2bd-ba55-4db1-8440-619159c367aa")
+	)
+	(fp_line
+		(start -1.8 6.85)
+		(end 1.8 6.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7f69e457-42b8-4035-88f3-f1ec8fad4c19")
+	)
+	(fp_line
+		(start 1.27 -1.27)
+		(end 1.27 6.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "99c71c35-a8a2-4c57-ab33-d779f25a305f")
+	)
+	(fp_line
+		(start -0.635 -1.27)
+		(end 1.27 -1.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1ce4c386-ab66-42fd-8486-9f886b4308f7")
+	)
+	(fp_line
+		(start -1.27 -0.635)
+		(end -0.635 -1.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "070aff39-cb1e-46c6-933c-5f25fd9cde1a")
+	)
+	(fp_line
+		(start 1.27 6.35)
+		(end -1.27 6.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c5f1fef6-f650-474a-bdab-6530e4d61e93")
+	)
+	(fp_line
+		(start -1.27 6.35)
+		(end -1.27 -0.635)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f9cef458-0f3d-42fa-abff-beca99411e43")
+	)
+	(fp_text
+		user
+		"${REFERENCE}"
+		(at 0 2.54 270)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cb1c8865-40ae-4fda-81fa-093694d1c942")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad
+		"1"
+		thru_hole
+		rect
+		(at 0 0 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+	)
+	(pad
+		"2"
+		thru_hole
+		oval
+		(at 0 2.54 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+	)
+	(pad
+		"3"
+		thru_hole
+		oval
+		(at 0 5.08 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+	)
+	(model
+		"${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

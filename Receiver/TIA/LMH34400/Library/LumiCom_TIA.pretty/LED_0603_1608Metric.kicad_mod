@@ -1,0 +1,234 @@
+(footprint
+	"LED_0603_1608Metric"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
+	(tags "LED")
+	(property
+		"Reference"
+		"REF**"
+		(at 0 -1.43 0)
+		(layer "F.SilkS")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property
+		"Value"
+		"LED_0603_1608Metric"
+		(at 0 1.43 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property
+		"Footprint"
+		"LED_0603_1608Metric"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property
+		"Datasheet"
+		"https://www.we-online.com/components/products/datasheet/150060VS75000.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property
+		"Description"
+		" Single Color LEDs WL-SMCW SMDMono TpVw Waterclr 0603 BrtGrn "
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
+	(attr smd)
+	(fp_line
+		(start 0.8 -0.735)
+		(end -1.485 -0.735)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "07e6d1ff-d9bf-4542-bd22-3b80bece1461")
+	)
+	(fp_line
+		(start -1.485 -0.735)
+		(end -1.485 0.735)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b4cbe9f0-ad5b-4581-ae02-0fdcfd95e05d")
+	)
+	(fp_line
+		(start -1.485 0.735)
+		(end 0.8 0.735)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e80ecde0-5b40-4a0b-ba87-387e9e2e174d")
+	)
+	(fp_line
+		(start 1.48 -0.73)
+		(end 1.48 0.73)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b7e8e511-01d0-4253-953d-189747c20d99")
+	)
+	(fp_line
+		(start -1.48 -0.73)
+		(end 1.48 -0.73)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a348de46-3078-44fb-83bd-90af93abd771")
+	)
+	(fp_line
+		(start 1.48 0.73)
+		(end -1.48 0.73)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "833c69ec-6f3a-479b-bd86-6ccb4517c57c")
+	)
+	(fp_line
+		(start -1.48 0.73)
+		(end -1.48 -0.73)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "87042f6c-dbdd-414b-9709-b7165745a1e0")
+	)
+	(fp_line
+		(start 0.8 -0.4)
+		(end -0.5 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "58c37e53-0bc8-449b-8c59-58563c0c6970")
+	)
+	(fp_line
+		(start -0.5 -0.4)
+		(end -0.8 -0.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "87b79489-8426-4226-be6c-a846295151f0")
+	)
+	(fp_line
+		(start -0.8 -0.1)
+		(end -0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e4ff0685-36b9-4022-acd4-011bb95c0d67")
+	)
+	(fp_line
+		(start 0.8 0.4)
+		(end 0.8 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8523ef85-0a05-495f-bf28-7dc52ba01c8d")
+	)
+	(fp_line
+		(start -0.8 0.4)
+		(end 0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a348eb7b-1496-4246-a2c1-eed2d4486ae2")
+	)
+	(fp_text
+		user
+		"${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "81d68f9e-e65f-4574-b2ee-28cbebe7aa78")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.06)
+			)
+		)
+	)
+	(pad
+		"1"
+		smd
+		roundrect
+		(at -0.7875 0 0)
+		(size 0.875 0.95)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+	)
+	(pad
+		"2"
+		smd
+		roundrect
+		(at 0.7875 0 0)
+		(size 0.875 0.95)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+	)
+	(model
+		"${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

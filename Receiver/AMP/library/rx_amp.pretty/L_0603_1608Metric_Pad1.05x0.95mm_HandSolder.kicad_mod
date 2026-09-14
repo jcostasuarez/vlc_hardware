@@ -1,0 +1,371 @@
+(footprint
+	"L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Inductor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
+	(tags "inductor handsolder")
+	(property
+		"Reference"
+		"REF**"
+		(at 0 -1.43 0)
+		(layer "F.SilkS")
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+		(render_cache
+			"R1"
+			0
+			(polygon
+				(pts
+					(xy 127.99515 92.464658)
+					(xy 127.99515 92.332034)
+					(xy 128.334159 92.332034)
+					(xy 128.382792 92.323946)
+					(xy 128.424731 92.297331)
+					(xy 128.431857 92.28978)
+					(xy 128.457068 92.247358)
+					(xy 128.467837 92.198589)
+					(xy 128.468737 92.177428)
+					(xy 128.46265 92.125385)
+					(xy 128.442481 92.079437)
+					(xy 128.431857 92.065565)
+					(xy 128.392022 92.035061)
+					(xy 128.341668 92.023233)
+					(xy 128.334159 92.023066)
+					(xy 127.99515 92.023066)
+					(xy 127.99515 91.890443)
+					(xy 128.328786 91.890443)
+					(xy 128.380855 91.893949)
+					(xy 128.428678 91.904468)
+					(xy 128.476379 91.924137)
+					(xy 128.480461 91.926346)
+					(xy 128.521692 91.954378)
+					(xy 128.556055 91.989105)
+					(xy 128.581333 92.026486)
+					(xy 128.601774 92.073303)
+					(xy 128.613731 92.125431)
+					(xy 128.617237 92.177428)
+					(xy 128.613683 92.229215)
+					(xy 128.601564 92.281332)
+					(xy 128.580845 92.32837)
+					(xy 128.552616 92.369323)
+					(xy 128.517634 92.403523)
+					(xy 128.479972 92.428754)
+					(xy 128.433016 92.449195)
+					(xy 128.380807 92.461151)
+					(xy 128.328786 92.464658)
+				)
+			)
+			(polygon
+				(pts
+					(xy 127.934334 92.885)
+					(xy 127.934334 91.890443)
+					(xy 128.073797 91.890443)
+					(xy 128.073797 92.885)
+				)
+			)
+			(polygon
+				(pts
+					(xy 128.493406 92.885)
+					(xy 128.265771 92.433883)
+					(xy 128.404501 92.402376)
+					(xy 128.659002 92.885)
+				)
+			)
+			(polygon
+				(pts
+					(xy 129.066155 91.891175)
+					(xy 129.066155 92.885)
+					(xy 128.926693 92.885)
+					(xy 128.926693 92.04285)
+					(xy 128.785276 92.129556)
+					(xy 128.785276 91.985453)
+					(xy 128.926693 91.891175)
+				)
+			)
+		)
+	)
+	(property
+		"Value"
+		"L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(at 0 1.43 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+		(render_cache
+			"15"
+			0
+			(polygon
+				(pts
+					(xy 128.22889 94.751175)
+					(xy 128.22889 95.745)
+					(xy 128.089427 95.745)
+					(xy 128.089427 94.90285)
+					(xy 127.948011 94.989556)
+					(xy 127.948011 94.845453)
+					(xy 128.089427 94.751175)
+				)
+			)
+			(polygon
+				(pts
+					(xy 128.731542 95.755258)
+					(xy 128.677396 95.751182)
+					(xy 128.628288 95.738954)
+					(xy 128.579063 95.715455)
+					(xy 128.545184 95.690045)
+					(xy 128.512196 95.653973)
+					(xy 128.486017 95.611215)
+					(xy 128.466645 95.561772)
+					(xy 128.45528 95.513023)
+					(xy 128.454082 95.505642)
+					(xy 128.454082 95.505153)
+					(xy 128.593545 95.505153)
+					(xy 128.593545 95.505642)
+					(xy 128.60826 95.554307)
+					(xy 128.637264 95.590882)
+					(xy 128.681875 95.614514)
+					(xy 128.731542 95.621168)
+					(xy 128.780918 95.613792)
+					(xy 128.825468 95.586948)
+					(xy 128.835101 95.576472)
+					(xy 128.860145 95.53035)
+					(xy 128.870449 95.479654)
+					(xy 128.871737 95.450443)
+					(xy 128.871737 95.366912)
+					(xy 128.867408 95.315353)
+					(xy 128.851129 95.265658)
+					(xy 128.835101 95.241127)
+					(xy 128.794099 95.20922)
+					(xy 128.743824 95.197065)
+					(xy 128.731542 95.196674)
+					(xy 128.683108 95.206372)
+					(xy 128.661933 95.217191)
+					(xy 128.623254 95.249228)
+					(xy 128.60307 95.274588)
+					(xy 128.475819 95.274588)
+					(xy 128.475819 94.751175)
+					(xy 128.982379 94.751175)
+					(xy 128.982379 94.883555)
+					(xy 128.615282 94.883555)
+					(xy 128.615282 95.107281)
+					(xy 128.65778 95.080903)
+					(xy 128.673412 95.074553)
+					(xy 128.722459 95.063562)
+					(xy 128.739113 95.062829)
+					(xy 128.793144 95.066639)
+					(xy 128.841542 95.07807)
+					(xy 128.889955 95.100464)
+					(xy 128.931011 95.132811)
+					(xy 128.940125 95.142452)
+					(xy 128.97122 95.18634)
+					(xy 128.991141 95.231428)
+					(xy 129.004259 95.282758)
+					(xy 129.010089 95.331722)
+					(xy 129.0112 95.366912)
+					(xy 129.0112 95.450443)
+					(xy 129.008624 95.502713)
+					(xy 128.999107 95.557834)
+					(xy 128.982578 95.606644)
+					(xy 128.9551 95.654698)
+					(xy 128.937927 95.675635)
+					(xy 128.897642 95.71047)
+					(xy 128.849816 95.735352)
+					(xy 128.801783 95.748959)
+					(xy 128.747976 95.754947)
+				)
+			)
+		)
+	)
+	(property
+		"Footprint"
+		"L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property
+		"Datasheet"
+		"https://www.we-online.com/components/products/datasheet/560112116150.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property
+		"Description"
+		"SMD WRIS-RSKS 15 Ohms 1 % 0.1 W 0603 "
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property ki_fp_filters "R_*")
+	(attr smd)
+	(fp_line
+		(start -0.171267 -0.51)
+		(end 0.171267 -0.51)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "302bc8f1-36a9-4400-9704-b2f94edae3e5")
+	)
+	(fp_line
+		(start -0.171267 0.51)
+		(end 0.171267 0.51)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "153560e8-4248-483b-a1dc-397b2838a408")
+	)
+	(fp_line
+		(start -1.65 -0.73)
+		(end 1.65 -0.73)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "555f2c32-354e-49fe-a733-a9c15600825a")
+	)
+	(fp_line
+		(start -1.65 0.73)
+		(end -1.65 -0.73)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d898b84b-92af-49e5-aaa5-d19b1edee9b8")
+	)
+	(fp_line
+		(start 1.65 -0.73)
+		(end 1.65 0.73)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0cf04e95-ee13-4f84-9812-85c3311d5aa2")
+	)
+	(fp_line
+		(start 1.65 0.73)
+		(end -1.65 0.73)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "df1d471a-2e44-4b50-8b78-08d152e1257e")
+	)
+	(fp_line
+		(start -0.8 -0.4)
+		(end 0.8 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "707b7b54-3a26-4462-b2a8-6debaa2fbfe5")
+	)
+	(fp_line
+		(start -0.8 0.4)
+		(end -0.8 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3b241c65-e181-4373-a629-e2ea8c71aca4")
+	)
+	(fp_line
+		(start 0.8 -0.4)
+		(end 0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8f212804-458e-4596-a24f-f25122dd8ed1")
+	)
+	(fp_line
+		(start 0.8 0.4)
+		(end -0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f350822d-9900-47a5-aaf9-aba976fd372f")
+	)
+	(fp_text
+		user
+		"${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "2b9f81e5-d61c-4b1c-b91a-e3e88cd7ffd7")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.06)
+			)
+		)
+	)
+	(pad
+		"1"
+		smd
+		roundrect
+		(at -0.875 0)
+		(size 1.05 0.95)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+	)
+	(pad
+		"2"
+		smd
+		roundrect
+		(at 0.875 0)
+		(size 1.05 0.95)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+	)
+	(model
+		"${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0603_1608Metric.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,738 @@
+(footprint
+	"SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Connector SMA, 0Hz to 20GHz, 50Ohm, Edge Mount (http://suddendocs.samtec.com/prints/sma-j-p-x-st-em1-mkt.pdf)")
+	(tags "SMA Straight Samtec Edge Mount")
+	(property
+		"Reference"
+		"REF**"
+		(at 0 -3.5 180)
+		(layer "Dwgs.User")
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 1 1)
+				(thickness 0.153)
+			)
+		)
+		(render_cache
+			"J2"
+			90
+			(polygon
+				(pts
+					(xy 113.425258 67.941102)
+					(xy 113.421477 67.993757)
+					(xy 113.410135 68.043584)
+					(xy 113.393262 68.086427)
+					(xy 113.368038 68.129185)
+					(xy 113.333542 68.169182)
+					(xy 113.302892 68.194626)
+					(xy 113.220826 68.080565)
+					(xy 113.258328 68.047982)
+					(xy 113.27285 68.025122)
+					(xy 113.288145 67.978063)
+					(xy 113.291168 67.941102)
+					(xy 113.285194 67.889515)
+					(xy 113.26505 67.843112)
+					(xy 113.24061 67.815073)
+					(xy 113.196921 67.787687)
+					(xy 113.146735 67.773687)
+					(xy 113.098461 67.770132)
+					(xy 112.421175 67.770132)
+					(xy 112.421175 67.630669)
+					(xy 113.099193 67.630669)
+					(xy 113.154907 67.63352)
+					(xy 113.205725 67.642072)
+					(xy 113.258828 67.659256)
+					(xy 113.305269 67.684201)
+					(xy 113.339773 67.711758)
+					(xy 113.373082 67.750365)
+					(xy 113.39821 67.795446)
+					(xy 113.415156 67.847003)
+					(xy 113.423171 67.896348)
+				)
+			)
+			(polygon
+				(pts
+					(xy 113.415 67.420376)
+					(xy 113.294099 67.420376)
+					(xy 112.831992 67.073796)
+					(xy 112.789003 67.045599)
+					(xy 112.749926 67.026901)
+					(xy 112.701182 67.01283)
+					(xy 112.669815 67.010048)
+					(xy 112.668593 67.010048)
+					(xy 112.618626 67.017723)
+					(xy 112.57627 67.044975)
+					(xy 112.55154 67.087229)
+					(xy 112.543426 67.136223)
+					(xy 112.543297 67.144138)
+					(xy 112.550169 67.192503)
+					(xy 112.574853 67.237475)
+					(xy 112.5792 67.242323)
+					(xy 112.619408 67.271321)
+					(xy 112.668748 67.286668)
+					(xy 112.680806 67.288485)
+					(xy 112.681538 67.288485)
+					(xy 112.681538 67.432588)
+					(xy 112.680806 67.432588)
+					(xy 112.627369 67.421851)
+					(xy 112.579472 67.405667)
+					(xy 112.531517 67.380503)
+					(xy 112.490797 67.348224)
+					(xy 112.481748 67.339043)
+					(xy 112.450759 67.298743)
+					(xy 112.428625 67.25307)
+					(xy 112.415344 67.202023)
+					(xy 112.410986 67.152949)
+					(xy 112.410917 67.145603)
+					(xy 112.414155 67.089861)
+					(xy 112.423867 67.039962)
+					(xy 112.442895 66.990091)
+					(xy 112.47038 66.947852)
+					(xy 112.478572 66.938485)
+					(xy 112.515896 66.906428)
+					(xy 112.560211 66.88353)
+					(xy 112.611517 66.869792)
+					(xy 112.662145 66.865284)
+					(xy 112.669815 66.865212)
+					(xy 112.670547 66.865212)
+					(xy 112.721133 66.870042)
+					(xy 112.770381 66.883266)
+					(xy 112.781189 66.887194)
+					(xy 112.827176 66.907718)
+					(xy 112.87147 66.933966)
+					(xy 112.891343 66.948011)
+					(xy 113.282376 67.235729)
+					(xy 113.282376 66.859839)
+					(xy 113.415 66.859839)
+				)
+			)
+		)
+	)
+	(property
+		"Value"
+		"SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
+		(at 0 13 180)
+		(layer "F.Fab")
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 1 1)
+				(thickness 0.153)
+			)
+		)
+		(render_cache
+			"PD IN"
+			90
+			(polygon
+				(pts
+					(xy 96.52934 69.063154)
+					(xy 96.396716 69.063154)
+					(xy 96.396716 68.745394)
+					(xy 96.388936 68.694303)
+					(xy 96.363157 68.64929)
+					(xy 96.349577 68.635729)
+					(xy 96.30644 68.608845)
+					(xy 96.258034 68.596194)
+					(xy 96.22599 68.594207)
+					(xy 96.176061 68.599114)
+					(xy 96.129888 68.615657)
+					(xy 96.100938 68.635729)
+					(xy 96.068547 68.677035)
+					(xy 96.054712 68.724684)
+					(xy 96.053555 68.745394)
+					(xy 96.053555 69.063154)
+					(xy 95.921175 69.063154)
+					(xy 95.921175 68.750034)
+					(xy 95.92417 68.701174)
+					(xy 95.934522 68.65119)
+					(xy 95.954449 68.601442)
+					(xy 95.959033 68.592986)
+					(xy 95.988668 68.550359)
+					(xy 96.025518 68.514831)
+					(xy 96.065279 68.488695)
+					(xy 96.110359 68.468988)
+					(xy 96.160114 68.45658)
+					(xy 96.20889 68.451654)
+					(xy 96.22599 68.451325)
+					(xy 96.275675 68.454281)
+					(xy 96.326575 68.464499)
+					(xy 96.372943 68.482016)
+					(xy 96.385969 68.488695)
+					(xy 96.42935 68.517768)
+					(xy 96.465457 68.553941)
+					(xy 96.491971 68.592986)
+					(xy 96.513246 68.641737)
+					(xy 96.524924 68.690815)
+					(xy 96.529304 68.744424)
+					(xy 96.52934 68.750034)
+				)
+			)
+			(polygon
+				(pts
+					(xy 96.915 69.134961)
+					(xy 95.921175 69.134961)
+					(xy 95.921175 68.995498)
+					(xy 96.915 68.995498)
+				)
+			)
+			(polygon
+				(pts
+					(xy 96.915 68.182902)
+					(xy 96.782376 68.182902)
+					(xy 96.782376 67.957955)
+					(xy 96.778819 67.906084)
+					(xy 96.766315 67.8551)
+					(xy 96.741862 67.807607)
+					(xy 96.725467 67.787473)
+					(xy 96.685167 67.755531)
+					(xy 96.635708 67.735419)
+					(xy 96.583364 67.727433)
+					(xy 96.564267 67.726901)
+					(xy 96.271664 67.726901)
+					(xy 96.222678 67.730687)
+					(xy 96.174539 67.743996)
+					(xy 96.129707 67.770023)
+					(xy 96.110708 67.787473)
+					(xy 96.080569 67.830149)
+					(xy 96.062987 67.876796)
+					(xy 96.054448 67.931248)
+					(xy 96.053555 67.957955)
+					(xy 96.053555 68.182902)
+					(xy 95.921175 68.182902)
+					(xy 95.921175 67.962107)
+					(xy 95.923453 67.9077)
+					(xy 95.930287 67.857288)
+					(xy 95.944501 67.802067)
+					(xy 95.965275 67.752599)
+					(xy 95.992609 67.708884)
+					(xy 96.014476 67.682937)
+					(xy 96.052143 67.649321)
+					(xy 96.095168 67.622659)
+					(xy 96.143551 67.602953)
+					(xy 96.197292 67.590201)
+					(xy 96.246169 67.584888)
+					(xy 96.277281 67.584019)
+					(xy 96.558893 67.584019)
+					(xy 96.613237 67.586797)
+					(xy 96.663429 67.595132)
+					(xy 96.714932 67.61115)
+					(xy 96.751357 67.628471)
+					(xy 96.79317 67.656663)
+					(xy 96.829032 67.691231)
+					(xy 96.858943 67.732174)
+					(xy 96.87299 67.757676)
+					(xy 96.893297 67.80817)
+					(xy 96.905769 67.857789)
+					(xy 96.912989 67.911866)
+					(xy 96.915 67.96284)
+				)
+			)
+			(polygon
+				(pts
+					(xy 96.915 68.27718)
+					(xy 95.921175 68.27718)
+					(xy 95.921175 68.137718)
+					(xy 96.915 68.137718)
+				)
+			)
+			(polygon
+				(pts
+					(xy 95.921175 66.844207)
+					(xy 96.915 66.844207)
+					(xy 96.915 66.98367)
+					(xy 95.921175 66.98367)
+				)
+			)
+			(polygon
+				(pts
+					(xy 96.914267 66.598743)
+					(xy 95.921175 66.598743)
+					(xy 95.921175 66.472226)
+					(xy 96.689319 65.986182)
+					(xy 96.707149 66.002791)
+					(xy 95.921175 66.002791)
+					(xy 95.921175 65.864549)
+					(xy 96.914267 65.864549)
+					(xy 96.914267 65.992533)
+					(xy 96.157602 66.47711)
+					(xy 96.139773 66.460746)
+					(xy 96.914267 66.460746)
+				)
+			)
+		)
+	)
+	(property
+		"Footprint"
+		"SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property
+		"Datasheet"
+		" ~"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property
+		"Description"
+		"SMA edge"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property ki_fp_filters "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*")
+	(attr smd)
+	(fp_line
+		(start -1.95 2)
+		(end -0.84 2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ddcf2468-8e80-4d73-884e-090a145fadd0")
+	)
+	(fp_line
+		(start 0.84 2)
+		(end 1.95 2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e4595797-438a-4a46-8081-3c47538cda44")
+	)
+	(fp_line
+		(start -1.95 -1.71)
+		(end -0.84 -1.71)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a6a0e070-8ebf-4ab7-ae6d-f64ca2968b5b")
+	)
+	(fp_line
+		(start 0.84 -1.71)
+		(end 1.95 -1.71)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "576007c0-3e8c-4186-8df7-23ee9ce21f1a")
+	)
+	(fp_line
+		(start 0 -2.26)
+		(end 0.25 -2.76)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6e1e88b2-b3bd-4d3e-b99e-b300d14ec558")
+	)
+	(fp_line
+		(start -0.25 -2.76)
+		(end 0 -2.26)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f531b445-61b7-43e7-908d-5d426a8ab59b")
+	)
+	(fp_line
+		(start 0.25 -2.76)
+		(end -0.25 -2.76)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a73b34fd-1401-4ab4-8f58-d7f6da4d44f6")
+	)
+	(fp_line
+		(start 4.1 2.1)
+		(end -4.1 2.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "e176e056-a3c5-4b1f-ab0a-7b40111d1da7")
+	)
+	(fp_line
+		(start -3.68 12.12)
+		(end -3.68 2.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "6dd374f6-adfa-4d68-9a29-862117a760a5")
+	)
+	(fp_line
+		(start 3.68 12.12)
+		(end -3.68 12.12)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "591716a6-9184-42b7-9460-4e9d8779ad24")
+	)
+	(fp_line
+		(start -4 2.6)
+		(end -4 -2.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "e65bdc27-f2ee-4256-8712-16b0c7a85bd7")
+	)
+	(fp_line
+		(start -3.68 2.6)
+		(end -4 2.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "a858e514-4c1b-4f05-85a8-9da165a427e3")
+	)
+	(fp_line
+		(start 3.68 2.6)
+		(end 3.68 12.12)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "7723a2fb-6418-45f6-8b7c-9c89a7b79fb9")
+	)
+	(fp_line
+		(start 4 2.6)
+		(end 3.68 2.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "713c0263-6f94-441d-8818-9a8d4177350f")
+	)
+	(fp_line
+		(start 4 2.6)
+		(end 4 -2.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "0443797a-d2df-4c95-86f2-2233eb63b238")
+	)
+	(fp_line
+		(start -4 -2.6)
+		(end 4 -2.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "108519b0-0ac4-4993-b74a-6dfeeebaa271")
+	)
+	(fp_line
+		(start -3.68 12.12)
+		(end -3.68 2.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "faf8d501-1ae3-4f2a-b9ec-c1e75ccd1be6")
+	)
+	(fp_line
+		(start 3.68 12.12)
+		(end -3.68 12.12)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "03e07b0d-cae8-48b5-9826-8bb35381956f")
+	)
+	(fp_line
+		(start -4 2.6)
+		(end -4 -2.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0c52ef81-394a-41ac-964d-537a3fcd106f")
+	)
+	(fp_line
+		(start -3.68 2.6)
+		(end -4 2.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4925246a-30b0-4013-8f07-46e992059962")
+	)
+	(fp_line
+		(start 3.68 2.6)
+		(end 3.68 12.12)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a7ffae57-2f73-457d-9f41-bbc6919f7b85")
+	)
+	(fp_line
+		(start 3.68 2.6)
+		(end 4 2.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "387c41c9-66d2-4f6c-a311-b80823db54f9")
+	)
+	(fp_line
+		(start 4 2.6)
+		(end 4 -2.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d5ffa27a-1744-43b0-abb9-c86bc4694de6")
+	)
+	(fp_line
+		(start -4 -2.6)
+		(end 4 -2.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cb666c3d-3a76-47c9-ae87-7e8252d15453")
+	)
+	(fp_line
+		(start 3.165 11.62)
+		(end -3.165 11.62)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bda14e6e-a8ac-44c5-8196-02ed0a296a5f")
+	)
+	(fp_line
+		(start 0 3.1)
+		(end -0.64 2.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "87493b29-776b-4179-9a4c-648505a161f2")
+	)
+	(fp_line
+		(start -2.365 2.1)
+		(end -2.365 -1.71)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "72079b50-d880-47ef-9d3f-3402d779c632")
+	)
+	(fp_line
+		(start 0.64 2.1)
+		(end 0 3.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f9cc09f2-0d78-4b27-82ce-d9b86788b2a0")
+	)
+	(fp_line
+		(start 2.365 2.1)
+		(end -2.365 2.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ad056768-ceb3-4f3b-83d2-31a10746ef71")
+	)
+	(fp_line
+		(start -3.175 -1.71)
+		(end -3.175 11.62)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6b8af877-b927-4107-95c4-10ed0d6ddb6f")
+	)
+	(fp_line
+		(start -2.365 -1.71)
+		(end -3.175 -1.71)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2d8355e7-f35b-4b35-9756-de5d658490c3")
+	)
+	(fp_line
+		(start 2.365 -1.71)
+		(end 2.365 2.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "41aa305c-8991-407a-b95d-64617f6133b9")
+	)
+	(fp_line
+		(start 3.175 -1.71)
+		(end 3.175 11.62)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e9a4e262-8d64-4699-a4a3-ebe31c00857f")
+	)
+	(fp_line
+		(start 3.175 -1.71)
+		(end 2.365 -1.71)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8acf7e58-6e2a-4a80-a040-88737084907c")
+	)
+	(fp_text
+		user
+		"PCB Edge"
+		(at 0 2.600001 180)
+		(layer "Dwgs.User")
+		(uuid "08aeffeb-612d-4440-8dc9-c8d38fc5fb44")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text
+		user
+		"Board Thickness: 1.57mm"
+		(at 0 -5.45 180)
+		(layer "Cmts.User")
+		(uuid "370c7f30-527e-4112-b148-a151abd0c345")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text
+		user
+		"${REFERENCE}"
+		(at 0 4.789999 180)
+		(layer "F.Fab")
+		(uuid "6fda4921-e18d-4939-bf12-5ca26eb865b4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad
+		"1"
+		smd
+		rect
+		(at 0 0.2 0)
+		(size 1.27 3.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad
+		"2"
+		smd
+		rect
+		(at -2.825 0 0)
+		(size 1.35 4.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad
+		"2"
+		smd
+		rect
+		(at -2.825 0 0)
+		(size 1.35 4.2)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+	)
+	(pad
+		"2"
+		smd
+		rect
+		(at 2.825 0 0)
+		(size 1.35 4.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad
+		"2"
+		smd
+		rect
+		(at 2.825 0 0)
+		(size 1.35 4.2)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+	)
+	(model
+		"${KICAD8_3DMODEL_DIR}/Connector_Coaxial.3dshapes/SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

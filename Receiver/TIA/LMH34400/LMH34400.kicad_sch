@@ -5,7 +5,7 @@
 	(uuid "27381ed8-96e6-4041-ba7f-c08f9d949351")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Conn_Coaxial"
+		(symbol "LumiCom_TIA:Conn_Coaxial"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -172,7 +172,7 @@
 				)
 			)
 		)
-		(symbol "Connector:Screw_Terminal_01x02"
+		(symbol "LumiCom_TIA:Screw_Terminal_01x02"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -359,7 +359,7 @@
 				)
 			)
 		)
-		(symbol "Connector_Generic:Conn_01x03"
+		(symbol "LumiCom_TIA:Conn_01x03"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -527,7 +527,7 @@
 				)
 			)
 		)
-		(symbol "Device:C_Small"
+		(symbol "LumiCom_TIA:C_Small"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
@@ -662,7 +662,7 @@
 				)
 			)
 		)
-		(symbol "Device:LED"
+		(symbol "LumiCom_TIA:LED"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
@@ -831,7 +831,7 @@
 				)
 			)
 		)
-		(symbol "Device:L_Ferrite_Small"
+		(symbol "LumiCom_TIA:L_Ferrite_Small"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
@@ -1182,7 +1182,7 @@
 				)
 			)
 		)
-		(symbol "Device:R_Small_US"
+		(symbol "LumiCom_TIA:R_Small_US"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
@@ -1315,7 +1315,7 @@
 				)
 			)
 		)
-		(symbol "Jumper:SolderJumper_2_Open"
+		(symbol "LumiCom_TIA:SolderJumper_2_Open"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0) hide)
@@ -1725,7 +1725,7 @@
 				)
 			)
 		)
-		(symbol "Mechanical:MountingHole"
+		(symbol "LumiCom_TIA:MountingHole"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1807,7 +1807,7 @@
 				)
 			)
 		)
-		(symbol "power:Earth"
+		(symbol "LumiCom_TIA:Earth"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -1939,7 +1939,7 @@
 				)
 			)
 		)
-		(symbol "power:GND"
+		(symbol "LumiCom_TIA:GND"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -2035,7 +2035,7 @@
 				)
 			)
 		)
-		(symbol "power:PWR_FLAG"
+		(symbol "LumiCom_TIA:PWR_FLAG"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -2131,7 +2131,7 @@
 				)
 			)
 		)
-		(symbol "power:VCC"
+		(symbol "LumiCom_TIA:VCC"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -2841,7 +2841,7 @@
 		(uuid "ff9d2503-b1c1-4c4a-a661-d5c06e3713ec")
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "LumiCom_TIA:GND")
 		(at 187.96 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2906,7 +2906,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
+		(lib_id "LumiCom_TIA:Conn_01x03")
 		(at 208.28 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2930,7 +2930,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "LumiCom_TIA:PinHeader_1x03_P2.54mm_Vertical"
 			(at 208.28 96.52 0)
 			(effects
 				(font
@@ -3003,7 +3003,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
+		(lib_id "LumiCom_TIA:VCC")
 		(at 144.78 111.76 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3069,7 +3069,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
+		(lib_id "LumiCom_TIA:MountingHole")
 		(at 57.15 55.88 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -3097,7 +3097,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
+		(property "Footprint" "LumiCom_TIA:MountingHole_3.2mm_M3_DIN965"
 			(at 57.15 55.88 0)
 			(effects
 				(font
@@ -3161,7 +3161,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
+		(lib_id "LumiCom_TIA:VCC")
 		(at 182.88 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3227,7 +3227,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L_Ferrite_Small")
+		(lib_id "LumiCom_TIA:L_Ferrite_Small")
 		(at 142.24 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3251,7 +3251,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "LumiCom_TIA:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 142.24 53.34 0)
 			(effects
 				(font
@@ -3321,7 +3321,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
+		(lib_id "LumiCom_TIA:VCC")
 		(at 137.16 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3387,7 +3387,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
+		(lib_id "LumiCom_TIA:MountingHole")
 		(at 57.15 62.23 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -3415,7 +3415,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
+		(property "Footprint" "LumiCom_TIA:MountingHole_3.2mm_M3_DIN965"
 			(at 57.15 62.23 0)
 			(effects
 				(font
@@ -3479,7 +3479,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "LumiCom_TIA:GND")
 		(at 170.18 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3544,7 +3544,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "LumiCom_TIA:C_Small")
 		(at 170.18 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3571,7 +3571,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "LumiCom_TIA:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 170.18 58.42 0)
 			(effects
 				(font
@@ -3641,7 +3641,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "LumiCom_TIA:GND")
 		(at 137.16 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3706,7 +3706,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
+		(lib_id "LumiCom_TIA:R_Small_US")
 		(at 121.92 116.84 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3731,7 +3731,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "LumiCom_TIA:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 121.92 116.84 0)
 			(effects
 				(font
@@ -3801,7 +3801,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
+		(lib_id "LumiCom_TIA:Screw_Terminal_01x02")
 		(at 127 55.88 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3825,7 +3825,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
+		(property "Footprint" "LumiCom_TIA:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
 			(at 127 55.88 0)
 			(effects
 				(font
@@ -3894,7 +3894,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_Coaxial")
+		(lib_id "LumiCom_TIA:Conn_Coaxial")
 		(at 91.44 116.84 0)
 		(mirror y)
 		(unit 1)
@@ -3920,7 +3920,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
+		(property "Footprint" "LumiCom_TIA:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
 			(at 91.44 116.84 0)
 			(effects
 				(font
@@ -3990,13 +3990,13 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
+		(lib_id "LumiCom_TIA:SolderJumper_2_Open")
 		(at 132.08 110.49 90)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "68f3a09c-7d51-46a9-9fbd-0c0d16e7843f")
 		(property "Reference" "JP1"
@@ -4017,7 +4017,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "LumiCom_TIA:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 132.08 110.49 0)
 			(effects
 				(font
@@ -4087,7 +4087,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "LumiCom_TIA:LED")
 		(at 195.58 59.69 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4114,7 +4114,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LumiCom_TIA:LED_0603_1608Metric"
 			(at 195.58 59.69 0)
 			(effects
 				(font
@@ -4184,7 +4184,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "LumiCom_TIA:GND")
 		(at 200.66 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4249,7 +4249,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "LumiCom_TIA:C_Small")
 		(at 104.14 129.54 0)
 		(mirror y)
 		(unit 1)
@@ -4274,7 +4274,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "LumiCom_TIA:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 104.14 129.54 0)
 			(effects
 				(font
@@ -4344,7 +4344,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_Coaxial")
+		(lib_id "LumiCom_TIA:Conn_Coaxial")
 		(at 104.14 91.44 0)
 		(mirror y)
 		(unit 1)
@@ -4371,7 +4371,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
+		(property "Footprint" "LumiCom_TIA:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
 			(at 104.14 91.44 0)
 			(effects
 				(font
@@ -4550,7 +4550,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "LumiCom_TIA:GND")
 		(at 157.48 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4615,7 +4615,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:Earth")
+		(lib_id "LumiCom_TIA:Earth")
 		(at 104.14 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4682,7 +4682,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "LumiCom_TIA:GND")
 		(at 91.44 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4748,7 +4748,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
+		(lib_id "LumiCom_TIA:VCC")
 		(at 200.66 91.44 0)
 		(mirror y)
 		(unit 1)
@@ -4815,7 +4815,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
+		(lib_id "LumiCom_TIA:R_Small_US")
 		(at 104.14 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4842,7 +4842,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "LumiCom_TIA:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 104.14 121.92 0)
 			(effects
 				(font
@@ -4912,7 +4912,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "LumiCom_TIA:C_Small")
 		(at 157.48 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4939,7 +4939,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "LumiCom_TIA:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 157.48 58.42 0)
 			(effects
 				(font
@@ -5009,7 +5009,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
+		(lib_id "LumiCom_TIA:MountingHole")
 		(at 57.15 68.58 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -5037,7 +5037,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
+		(property "Footprint" "LumiCom_TIA:MountingHole_3.2mm_M3_DIN965"
 			(at 57.15 68.58 0)
 			(effects
 				(font
@@ -5101,7 +5101,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "LumiCom_TIA:C_Small")
 		(at 182.88 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5128,7 +5128,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "LumiCom_TIA:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 182.88 58.42 0)
 			(effects
 				(font
@@ -5198,7 +5198,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "LumiCom_TIA:C_Small")
 		(at 226.06 109.22 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5222,7 +5222,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "LumiCom_TIA:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 226.06 109.22 0)
 			(effects
 				(font
@@ -5292,7 +5292,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "LumiCom_TIA:GND")
 		(at 104.14 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5358,7 +5358,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "LumiCom_TIA:GND")
 		(at 182.88 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5423,7 +5423,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
+		(lib_id "LumiCom_TIA:R_Small_US")
 		(at 195.58 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5450,7 +5450,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "LumiCom_TIA:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 195.58 68.58 0)
 			(effects
 				(font
@@ -5520,7 +5520,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "LumiCom_TIA:C_Small")
 		(at 114.3 116.84 90)
 		(mirror x)
 		(unit 1)
@@ -5545,7 +5545,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "LumiCom_TIA:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 114.3 116.84 0)
 			(effects
 				(font
@@ -5615,7 +5615,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
+		(lib_id "LumiCom_TIA:R_Small_US")
 		(at 213.36 109.22 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5639,7 +5639,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "LumiCom_TIA:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 213.36 109.22 0)
 			(effects
 				(font
@@ -5709,7 +5709,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "LumiCom_TIA:GND")
 		(at 132.08 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5774,7 +5774,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
+		(lib_id "LumiCom_TIA:PWR_FLAG")
 		(at 157.48 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5840,7 +5840,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_Coaxial")
+		(lib_id "LumiCom_TIA:Conn_Coaxial")
 		(at 246.38 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5866,7 +5866,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
+		(property "Footprint" "LumiCom_TIA:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
 			(at 246.38 109.22 0)
 			(effects
 				(font
@@ -5936,7 +5936,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
+		(lib_id "LumiCom_TIA:PWR_FLAG")
 		(at 132.08 58.42 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6003,7 +6003,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "LumiCom_TIA:GND")
 		(at 195.58 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6068,7 +6068,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
+		(lib_id "LumiCom_TIA:R_Small_US")
 		(at 226.06 116.84 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6092,7 +6092,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "LumiCom_TIA:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 226.06 116.84 0)
 			(effects
 				(font
@@ -6162,7 +6162,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
+		(lib_id "LumiCom_TIA:Conn_01x03")
 		(at 127 142.24 0)
 		(mirror y)
 		(unit 1)
@@ -6188,7 +6188,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "LumiCom_TIA:PinHeader_1x03_P2.54mm_Vertical"
 			(at 127 142.24 0)
 			(effects
 				(font
@@ -6261,7 +6261,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "LumiCom_TIA:GND")
 		(at 246.38 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)

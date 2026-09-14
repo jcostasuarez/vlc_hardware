@@ -28,3 +28,9 @@ fp-info-cache
 *.xml
 *.csv
 nanovna-saver
+
+# Generated review/fabrication artifacts and KiCad source checkout
+build/
+
+# KiCad project lock files
+*.lck

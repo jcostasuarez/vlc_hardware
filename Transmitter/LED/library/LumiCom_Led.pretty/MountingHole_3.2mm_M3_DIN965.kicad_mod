@@ -1,0 +1,116 @@
+(footprint
+	"MountingHole_3.2mm_M3_DIN965"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Mounting Hole 3.2mm, no annular, M3, DIN965")
+	(tags "mounting hole 3.2mm no annular m3 din965")
+	(property
+		"Reference"
+		"REF**"
+		(at 0 -3.8 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property
+		"Value"
+		"MountingHole_3.2mm_M3_DIN965"
+		(at 0 3.8 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property
+		"Footprint"
+		"MountingHole_3.2mm_M3_DIN965"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property
+		"Datasheet"
+		""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property
+		"Description"
+		"Mounting Hole without connection"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property ki_fp_filters "MountingHole*")
+	(attr exclude_from_bom)
+	(fp_circle
+		(center 0 0)
+		(end 2.8 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "460c2a92-c6c5-449e-b0b1-66b3536e8b1a")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.05 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "b5465c0e-e8bd-4b90-a980-ea294e441719")
+	)
+	(fp_text
+		user
+		"${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "f85c74bf-6401-4f7f-b732-2c51cafd9ce8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad
+		""
+		np_thru_hole
+		circle
+		(at 0 0)
+		(size 3.2 3.2)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+	)
+)

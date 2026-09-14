@@ -129,7 +129,7 @@
 	(net 3 "Net-(J2-In)")
 	(net 4 "Net-(J3-Pin_2)")
 	(net 5 "Net-(LED1-anode)")
-	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965"
+	(footprint "LumiCom_Led:MountingHole_3.2mm_M3_DIN965"
 		(layer "F.Cu")
 		(uuid "38ca2558-c343-43d9-8b0f-26172363ace4")
 		(at 181 116)
@@ -158,7 +158,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
+		(property "Footprint" "LumiCom_Led:MountingHole_3.2mm_M3_DIN965"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -645,7 +645,7 @@
 				)
 			)
 		)
-		(property "Description" " RF Inductors - SMD WE-CAIR Air Coil 206nH 3A AEC-Q200 "
+		(property "Description" "RF Inductors - SMD WE-CAIR Air Coil 206nH 3A AEC-Q200"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -880,7 +880,7 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965"
+	(footprint "LumiCom_Led:MountingHole_3.2mm_M3_DIN965"
 		(layer "F.Cu")
 		(uuid "6630cbe0-f23b-4d29-a0b8-1d7977bf0693")
 		(at 181 89)
@@ -909,7 +909,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
+		(property "Footprint" "LumiCom_Led:MountingHole_3.2mm_M3_DIN965"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1030,7 +1030,7 @@
 			(uuid "16db2a2a-846e-41bd-a0f9-0851d0e342a3")
 		)
 	)
-	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965"
+	(footprint "LumiCom_Led:MountingHole_3.2mm_M3_DIN965"
 		(layer "F.Cu")
 		(uuid "affb6e52-7f8d-41d5-95c5-6c718d5c5ab7")
 		(at 139 116)
@@ -1059,7 +1059,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
+		(property "Footprint" "LumiCom_Led:MountingHole_3.2mm_M3_DIN965"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1180,7 +1180,7 @@
 			(uuid "4d090523-62da-4009-a13b-285b2ad3ee15")
 		)
 	)
-	(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+	(footprint "LumiCom_Led:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "b2a7de30-eec4-41f0-bb0b-c343eb98a650")
 		(at 150 108 90)
@@ -1208,7 +1208,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "LumiCom_Led:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1793,7 +1793,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+	(footprint "LumiCom_Led:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "d35178a9-2518-4dca-b127-8e5a16e1cb61")
 		(at 170 108 90)
@@ -1821,7 +1821,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "LumiCom_Led:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2064,7 +2064,7 @@
 			)
 		)
 	)
-	(footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
+	(footprint "LumiCom_Led:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
 		(layer "B.Cu")
 		(uuid "0043b783-1b44-467d-9028-6c304040a949")
 		(at 141 97 90)
@@ -2094,7 +2094,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
+		(property "Footprint" "LumiCom_Led:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -2682,7 +2682,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" " RFPC-SMA28-F GCT"
+		(property "Description" "RFPC-SMA28-F GCT"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -3063,7 +3063,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" " RFPC-SMA28-F GCT"
+		(property "Description" "RFPC-SMA28-F GCT"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")

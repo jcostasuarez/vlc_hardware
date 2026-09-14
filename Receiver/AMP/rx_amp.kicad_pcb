@@ -90,7 +90,7 @@
 	(net 7 "Net-(L1-Pad1)")
 	(net 8 "Net-(J3-Pin_2)")
 	(net 9 "Net-(C3-Pad1)")
-	(footprint "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+	(footprint "rx_amp:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "10ab591d-6844-41bd-87b9-960fbe6aef38")
 		(at 128.5 93.9)
@@ -180,7 +180,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "rx_amp:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -204,7 +204,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD WRIS-RSKS 15 Ohms 1 % 0.1 W 0603 "
+		(property "Description" "SMD WRIS-RSKS 15 Ohms 1 % 0.1 W 0603"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -401,7 +401,7 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965"
+	(footprint "rx_amp:MountingHole_3.2mm_M3_DIN965"
 		(layer "F.Cu")
 		(uuid "3bf6a50f-3175-465e-b802-dda3ef09c26b")
 		(at 136 94)
@@ -716,7 +716,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
+		(property "Footprint" "rx_amp:MountingHole_3.2mm_M3_DIN965"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -811,7 +811,7 @@
 			(uuid "58232631-16a8-40e0-8ba8-ca77547a5e00")
 		)
 	)
-	(footprint "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+	(footprint "rx_amp:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "60c74c0f-e715-4955-83df-3629d82152ae")
 		(at 125 96)
@@ -868,7 +868,7 @@
 				)
 			)
 		)
-		(property "Value" " Ferrite Beads 220 OHM "
+		(property "Value" "Ferrite Beads 220 OHM"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "f971be81-98aa-47b3-a2d3-02633c03fe2a")
@@ -1221,7 +1221,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "rx_amp:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1245,7 +1245,7 @@
 				)
 			)
 		)
-		(property "Description" " Ferrite Beads 220 OHM 25% Alternate Sizing Guide Below "
+		(property "Description" "Ferrite Beads 220 OHM 25% Alternate Sizing Guide Below"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1442,7 +1442,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+	(footprint "rx_amp:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "6b6b5f3e-89a6-4f2f-91af-8e40566fd64c")
 		(at 126 100 -90)
@@ -1570,7 +1570,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "rx_amp:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1594,7 +1594,7 @@
 				)
 			)
 		)
-		(property "Description" "16V 10nF 10% Tin Plated Chip "
+		(property "Description" "16V 10nF 10% Tin Plated Chip"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1791,7 +1791,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+	(footprint "rx_amp:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "81947f24-9fc3-4ff8-83b3-30987c4df2d9")
 		(at 133 107)
@@ -1909,7 +1909,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "rx_amp:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1933,7 +1933,7 @@
 				)
 			)
 		)
-		(property "Description" "16V 10nF 10% Tin Plated Chip "
+		(property "Description" "16V 10nF 10% Tin Plated Chip"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2130,7 +2130,7 @@
 			)
 		)
 	)
-	(footprint "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
+	(footprint "rx_amp:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
 		(layer "F.Cu")
 		(uuid "9da87925-230a-45e2-ac92-4daf14d94126")
 		(at 137.5 107 90)
@@ -2159,7 +2159,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
+		(property "Footprint" "rx_amp:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2171,7 +2171,7 @@
 				)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2643,7 +2643,7 @@
 			)
 		)
 	)
-	(footprint "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
+	(footprint "rx_amp:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
 		(layer "F.Cu")
 		(uuid "9e4e2358-c629-4e2c-ac56-9cdb6233b378")
 		(at 112.5 111 -90)
@@ -2672,7 +2672,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
+		(property "Footprint" "rx_amp:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2684,7 +2684,7 @@
 				)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "~"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3156,7 +3156,7 @@
 			)
 		)
 	)
-	(footprint "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+	(footprint "rx_amp:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "a87e5b57-e8aa-451b-b124-a6305ad47d2c")
 		(at 131 103 -90)
@@ -3290,7 +3290,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "rx_amp:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4135,7 +4135,7 @@
 			)
 		)
 	)
-	(footprint "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+	(footprint "rx_amp:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "c3442876-1e70-4f25-a94a-cf2cef4a5b6c")
 		(at 131 98 -90)
@@ -4258,7 +4258,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "rx_amp:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4479,7 +4479,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+	(footprint "rx_amp:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "cd49e765-c302-4015-80fb-713f2674d063")
 		(at 118 111)
@@ -4586,7 +4586,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "rx_amp:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4610,7 +4610,7 @@
 				)
 			)
 		)
-		(property "Description" "16V 10nF 10% Tin Plated Chip "
+		(property "Description" "16V 10nF 10% Tin Plated Chip"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4807,7 +4807,7 @@
 			)
 		)
 	)
-	(footprint "TerminalBlock_RND:TerminalBlock_RND_205-00001_1x02_P5.00mm_Horizontal"
+	(footprint "rx_amp:TerminalBlock_RND_205-00001_1x02_P5.00mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "da753c8a-336e-40c9-8515-0b76fe735db5")
 		(at 115 96.5)
@@ -5203,7 +5203,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_RND:TerminalBlock_RND_205-00001_1x02_P5.00mm_Horizontal"
+		(property "Footprint" "rx_amp:TerminalBlock_RND_205-00001_1x02_P5.00mm_Horizontal"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5684,7 +5684,7 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965"
+	(footprint "rx_amp:MountingHole_3.2mm_M3_DIN965"
 		(layer "F.Cu")
 		(uuid "e6d57110-064c-427b-a4cd-8040482104f2")
 		(at 136 116)
@@ -6020,7 +6020,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
+		(property "Footprint" "rx_amp:MountingHole_3.2mm_M3_DIN965"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")

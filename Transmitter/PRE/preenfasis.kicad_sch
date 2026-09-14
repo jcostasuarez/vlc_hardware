@@ -12,7 +12,7 @@
 		(comment 1 "ncotti@frba.utn.edu.ar")
 	)
 	(lib_symbols
-		(symbol "Connector:Conn_Coaxial"
+		(symbol "preenfasis:Conn_Coaxial"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -179,7 +179,7 @@
 				)
 			)
 		)
-		(symbol "Device:C"
+		(symbol "preenfasis:C"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254)
@@ -315,7 +315,7 @@
 				)
 			)
 		)
-		(symbol "Device:L"
+		(symbol "preenfasis:L"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
@@ -472,7 +472,7 @@
 				)
 			)
 		)
-		(symbol "Device:R_US"
+		(symbol "preenfasis:R_US"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0)
@@ -642,7 +642,7 @@
 				)
 			)
 		)
-		(symbol "Mechanical:MountingHole"
+		(symbol "preenfasis:MountingHole"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1484,7 +1484,7 @@
 		(uuid "201f6013-66b7-46a8-b6fc-728a391a40b4")
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "preenfasis:C")
 		(at 87.63 121.92 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1511,7 +1511,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "preenfasis:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 86.6648 118.11 0)
 			(effects
 				(font
@@ -1590,7 +1590,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_Coaxial")
+		(lib_id "preenfasis:Conn_Coaxial")
 		(at 162.56 91.44 0)
 		(mirror y)
 		(unit 1)
@@ -1617,7 +1617,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
+		(property "Footprint" "preenfasis:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
 			(at 162.56 91.44 0)
 			(effects
 				(font
@@ -1696,7 +1696,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "preenfasis:R_US")
 		(at 93.98 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1723,7 +1723,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "preenfasis:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 94.996 104.394 90)
 			(effects
 				(font
@@ -1802,7 +1802,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_Coaxial")
+		(lib_id "preenfasis:Conn_Coaxial")
 		(at 228.6 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1829,7 +1829,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
+		(property "Footprint" "preenfasis:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
 			(at 228.6 91.44 0)
 			(effects
 				(font
@@ -1908,7 +1908,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "preenfasis:C")
 		(at 185.42 74.93 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1933,7 +1933,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "preenfasis:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 189.23 73.9648 0)
 			(effects
 				(font
@@ -2012,7 +2012,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "preenfasis:R_US")
 		(at 185.42 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2037,7 +2037,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "preenfasis:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 185.674 90.424 90)
 			(effects
 				(font
@@ -2116,7 +2116,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "preenfasis:R_US")
 		(at 208.28 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2141,7 +2141,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "preenfasis:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 208.534 90.424 90)
 			(effects
 				(font
@@ -2220,7 +2220,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "preenfasis:R_US")
 		(at 92.71 66.04 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2245,7 +2245,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "preenfasis:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 92.964 65.024 90)
 			(effects
 				(font
@@ -2324,7 +2324,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "preenfasis:C")
 		(at 82.55 74.93 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2349,7 +2349,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "preenfasis:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 86.36 73.9648 0)
 			(effects
 				(font
@@ -2428,7 +2428,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
+		(lib_id "preenfasis:MountingHole")
 		(at 29.21 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2455,7 +2455,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
+		(property "Footprint" "preenfasis:MountingHole_3.2mm_M3_ISO7380"
 			(at 29.21 26.67 0)
 			(effects
 				(font
@@ -2528,7 +2528,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
+		(lib_id "preenfasis:L")
 		(at 99.06 74.93 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2553,7 +2553,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "preenfasis:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 99.06 74.93 0)
 			(effects
 				(font
@@ -2632,7 +2632,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "preenfasis:C")
 		(at 190.5 121.92 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2659,7 +2659,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "preenfasis:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 189.5348 118.11 0)
 			(effects
 				(font
@@ -2738,7 +2738,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_Coaxial")
+		(lib_id "preenfasis:Conn_Coaxial")
 		(at 125.73 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2765,7 +2765,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
+		(property "Footprint" "preenfasis:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
 			(at 125.73 91.44 0)
 			(effects
 				(font
@@ -2844,7 +2844,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
+		(lib_id "preenfasis:MountingHole")
 		(at 20.32 21.59 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2871,7 +2871,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
+		(property "Footprint" "preenfasis:MountingHole_3.2mm_M3_ISO7380"
 			(at 20.32 21.59 0)
 			(effects
 				(font
@@ -2944,7 +2944,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
+		(lib_id "preenfasis:MountingHole")
 		(at 29.21 21.59 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2971,7 +2971,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
+		(property "Footprint" "preenfasis:MountingHole_3.2mm_M3_ISO7380"
 			(at 29.21 21.59 0)
 			(effects
 				(font
@@ -3044,7 +3044,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "preenfasis:R_US")
 		(at 195.58 66.04 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3069,7 +3069,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "preenfasis:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 195.834 65.024 90)
 			(effects
 				(font
@@ -3148,7 +3148,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "preenfasis:R_US")
 		(at 105.41 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3173,7 +3173,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "preenfasis:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 105.664 90.424 90)
 			(effects
 				(font
@@ -3252,7 +3252,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_Coaxial")
+		(lib_id "preenfasis:Conn_Coaxial")
 		(at 59.69 91.44 0)
 		(mirror y)
 		(unit 1)
@@ -3279,7 +3279,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
+		(property "Footprint" "preenfasis:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
 			(at 59.69 91.44 0)
 			(effects
 				(font
@@ -3358,7 +3358,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "preenfasis:R_US")
 		(at 196.85 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3385,7 +3385,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "preenfasis:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 197.866 104.394 90)
 			(effects
 				(font
@@ -3464,7 +3464,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
+		(lib_id "preenfasis:L")
 		(at 203.2 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3491,7 +3491,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "preenfasis:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 203.2 123.19 0)
 			(effects
 				(font
@@ -3570,7 +3570,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
+		(lib_id "preenfasis:L")
 		(at 100.33 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3597,7 +3597,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "preenfasis:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 100.33 123.19 0)
 			(effects
 				(font
@@ -3676,7 +3676,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "preenfasis:R_US")
 		(at 82.55 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3701,7 +3701,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "preenfasis:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 82.804 90.424 90)
 			(effects
 				(font
@@ -3780,7 +3780,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
+		(lib_id "preenfasis:MountingHole")
 		(at 20.32 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3807,7 +3807,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
+		(property "Footprint" "preenfasis:MountingHole_3.2mm_M3_ISO7380"
 			(at 20.32 26.67 0)
 			(effects
 				(font
@@ -3880,7 +3880,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
+		(lib_id "preenfasis:L")
 		(at 201.93 74.93 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3905,7 +3905,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "preenfasis:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 201.93 74.93 0)
 			(effects
 				(font

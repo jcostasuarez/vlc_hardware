@@ -126,7 +126,7 @@
 	(net 4 "Net-(J3-In)")
 	(net 5 "Net-(D3-A)")
 	(net 6 "Net-(J5-Pin_2)")
-	(footprint "Package_TO_SOT_THT:TO-18-3"
+	(footprint "Lumicom_Photodiode:TO-18-3"
 		(layer "F.Cu")
 		(uuid "2625b67b-6752-43ed-89dd-3cbd0ca09a9b")
 		(at 114.414724 67.184724)
@@ -275,7 +275,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-18-3"
+		(property "Footprint" "Lumicom_Photodiode:TO-18-3"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -856,7 +856,7 @@
 			)
 		)
 	)
-	(footprint "LED_THT:LED_D5.0mm_IRGrey"
+	(footprint "Lumicom_Photodiode:LED_D5.0mm_IRGrey"
 		(layer "F.Cu")
 		(uuid "56e34b83-9181-4900-b57f-f0d3eaf7de0e")
 		(at 114.725 88)
@@ -1066,7 +1066,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm_IRGrey"
+		(property "Footprint" "Lumicom_Photodiode:LED_D5.0mm_IRGrey"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1618,7 +1618,7 @@
 			)
 		)
 	)
-	(footprint "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+	(footprint "Lumicom_Photodiode:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "8381cfa4-b540-43a6-b936-790f8e21904f")
 		(at 106 77.5 -90)
@@ -1908,7 +1908,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Lumicom_Photodiode:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3001,7 +3001,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+	(footprint "Lumicom_Photodiode:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "f8a20107-4dec-4fcb-b9ec-6dda8f27b950")
 		(at 106 84 -90)
@@ -3125,7 +3125,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Lumicom_Photodiode:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3307,7 +3307,7 @@
 			)
 		)
 	)
-	(footprint "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
+	(footprint "Lumicom_Photodiode:TerminalBlock_bornier-2_P5.08mm"
 		(layer "B.Cu")
 		(uuid "768d83a8-b882-46e4-8034-052a3232ba06")
 		(at 106 66 -90)
@@ -3698,7 +3698,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
+		(property "Footprint" "Lumicom_Photodiode:TerminalBlock_bornier-2_P5.08mm"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -4550,7 +4550,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -5416,7 +5416,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -6292,7 +6292,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")

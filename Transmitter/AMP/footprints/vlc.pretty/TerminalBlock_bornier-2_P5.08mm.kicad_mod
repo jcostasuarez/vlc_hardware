@@ -1,0 +1,259 @@
+(footprint
+	"TerminalBlock_bornier-2_P5.08mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "simple 2-pin terminal block, pitch 5.08mm, revamped version of bornier2")
+	(tags "terminal block bornier2")
+	(property
+		"Reference"
+		"REF**"
+		(at -3.92 -2.5 0)
+		(layer "F.SilkS")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property
+		"Value"
+		"TerminalBlock_bornier-2_P5.08mm"
+		(at 2.54 5.08 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property
+		"Footprint"
+		"TerminalBlock_bornier-2_P5.08mm"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property
+		"Datasheet"
+		"https://ar.mouser.com/datasheet/2/18/1/HrPlBMKIj9yv-1375424.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property
+		"Description"
+		"Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "TerminalBlock*:*")
+	(attr through_hole)
+	(fp_line
+		(start 7.62 3.81)
+		(end 7.62 -3.81)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "87c8800c-6cdc-42b1-a026-7ee37a011a9d")
+	)
+	(fp_line
+		(start 7.62 2.54)
+		(end -2.54 2.54)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4002e0b8-a4af-4a2b-b117-43f226e40a99")
+	)
+	(fp_line
+		(start 7.62 -3.81)
+		(end -2.54 -3.81)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c75d0ba5-16f9-4353-953a-26a333098f0a")
+	)
+	(fp_line
+		(start -2.54 3.81)
+		(end 7.62 3.81)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0d3463bd-8395-4aae-936d-9c2469af873c")
+	)
+	(fp_line
+		(start -2.54 -3.81)
+		(end -2.54 3.81)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "134548a3-4002-41c7-82ce-f6b9a744330b")
+	)
+	(fp_line
+		(start 7.79 4)
+		(end 7.79 -4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "48030bab-d7ea-4f99-b26b-c9c287f34286")
+	)
+	(fp_line
+		(start 7.79 4)
+		(end -2.71 4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "24e488e3-adb1-46fe-a421-dd700a4c8062")
+	)
+	(fp_line
+		(start -2.71 -4)
+		(end 7.79 -4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a844fb16-41a7-44aa-ba11-d816b6e7a463")
+	)
+	(fp_line
+		(start -2.71 -4)
+		(end -2.71 4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "55a881c3-35d4-4b00-be7a-973ee7ab18c7")
+	)
+	(fp_line
+		(start 7.54 3.75)
+		(end 7.54 -3.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fcce7f4f-01a7-421f-a57c-9048a12cd59d")
+	)
+	(fp_line
+		(start 7.54 -3.75)
+		(end -2.46 -3.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bb3abea6-e203-4b57-a0d9-9b9350ca89d1")
+	)
+	(fp_line
+		(start -2.41 2.55)
+		(end 7.49 2.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bab653e3-d8f7-405f-8784-8d192d45c918")
+	)
+	(fp_line
+		(start -2.46 3.75)
+		(end 7.54 3.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2a4780e0-ed97-4980-9f0b-2fdca98a2f4a")
+	)
+	(fp_line
+		(start -2.46 -3.75)
+		(end -2.46 3.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2458f427-b0be-46d4-b471-2d2b0746ab1c")
+	)
+	(fp_text
+		user
+		"${REFERENCE}"
+		(at 2.54 0 0)
+		(layer "F.Fab")
+		(uuid "2c825852-4db4-46f1-948c-d84d3e9847d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad
+		"1"
+		thru_hole
+		rect
+		(at 0 0 0)
+		(size 3 3)
+		(drill 1.52)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+	)
+	(pad
+		"2"
+		thru_hole
+		circle
+		(at 5.08 0 0)
+		(size 3 3)
+		(drill 1.52)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+	)
+	(model
+		"${KICAD6_3DMODEL_DIR}/TerminalBlock.3dshapes/TerminalBlock_bornier-2_P5.08mm.wrl"
+		(offset
+			(xyz 2.539999962 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -12,7 +12,7 @@
 		(comment 1 "ncotti@frba.utn.edu.ar")
 	)
 	(lib_symbols
-		(symbol "Connector:Conn_Coaxial"
+		(symbol "tx_amplifier:Conn_Coaxial"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -179,7 +179,7 @@
 				)
 			)
 		)
-		(symbol "Connector:Screw_Terminal_01x02"
+		(symbol "tx_amplifier:Screw_Terminal_01x02"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -366,7 +366,7 @@
 				)
 			)
 		)
-		(symbol "Device:C"
+		(symbol "tx_amplifier:C"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254)
@@ -502,7 +502,7 @@
 				)
 			)
 		)
-		(symbol "Device:L"
+		(symbol "tx_amplifier:L"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
@@ -659,7 +659,7 @@
 				)
 			)
 		)
-		(symbol "Device:Q_NPN_BCE"
+		(symbol "tx_amplifier:Q_NPN_BCE"
 			(pin_names
 				(offset 0) hide)
 			(exclude_from_sim no)
@@ -837,7 +837,7 @@
 				)
 			)
 		)
-		(symbol "Device:R_US"
+		(symbol "tx_amplifier:R_US"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0)
@@ -1007,7 +1007,7 @@
 				)
 			)
 		)
-		(symbol "Mechanical:MountingHole"
+		(symbol "tx_amplifier:MountingHole"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1089,7 +1089,7 @@
 				)
 			)
 		)
-		(symbol "power:+3.3V"
+		(symbol "tx_amplifier:+3.3V"
 			(power)
 			(pin_names
 				(offset 0)
@@ -1209,7 +1209,7 @@
 				)
 			)
 		)
-		(symbol "power:GND"
+		(symbol "tx_amplifier:GND"
 			(power)
 			(pin_names
 				(offset 0)
@@ -1305,7 +1305,7 @@
 				)
 			)
 		)
-		(symbol "power:PWR_FLAG"
+		(symbol "tx_amplifier:PWR_FLAG"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -1885,7 +1885,7 @@
 		(uuid "1244f321-6ba4-48c1-ba1e-b174711156be")
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "tx_amplifier:C")
 		(at 66.04 100.33 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1910,7 +1910,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "vlc:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 69.85 99.3648 0)
 			(effects
 				(font
@@ -1989,7 +1989,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "tx_amplifier:C")
 		(at 135.89 72.39 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2014,7 +2014,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "vlc:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 139.7 71.4248 0)
 			(effects
 				(font
@@ -2093,7 +2093,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "tx_amplifier:C")
 		(at 93.98 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2118,7 +2118,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "vlc:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 97.79 90.4748 0)
 			(effects
 				(font
@@ -2197,7 +2197,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "tx_amplifier:C")
 		(at 153.67 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2222,7 +2222,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "vlc:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 157.48 90.4748 0)
 			(effects
 				(font
@@ -2301,7 +2301,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "tx_amplifier:R_US")
 		(at 120.65 64.77 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2328,7 +2328,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "vlc:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 119.634 64.516 90)
 			(effects
 				(font
@@ -2407,7 +2407,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "tx_amplifier:R_US")
 		(at 81.28 91.44 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2432,7 +2432,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "vlc:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 81.026 92.456 90)
 			(effects
 				(font
@@ -2511,7 +2511,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "tx_amplifier:R_US")
 		(at 120.65 82.55 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2538,7 +2538,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "vlc:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 119.634 82.296 90)
 			(effects
 				(font
@@ -2617,7 +2617,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_Coaxial")
+		(lib_id "tx_amplifier:Conn_Coaxial")
 		(at 53.34 100.33 0)
 		(mirror y)
 		(unit 1)
@@ -2644,7 +2644,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
+		(property "Footprint" "vlc:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
 			(at 53.34 100.33 0)
 			(effects
 				(font
@@ -2723,7 +2723,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "tx_amplifier:GND")
 		(at 24.13 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2789,7 +2789,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
+		(lib_id "tx_amplifier:MountingHole")
 		(at 58.42 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2816,7 +2816,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
+		(property "Footprint" "vlc:MountingHole_3.2mm_M3_ISO7380"
 			(at 58.42 24.13 0)
 			(effects
 				(font
@@ -2889,7 +2889,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_Coaxial")
+		(lib_id "tx_amplifier:Conn_Coaxial")
 		(at 165.1 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2915,7 +2915,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
+		(property "Footprint" "vlc:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
 			(at 165.1 91.44 0)
 			(effects
 				(font
@@ -2994,7 +2994,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
+		(lib_id "tx_amplifier:+3.3V")
 		(at 97.79 21.59 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3060,7 +3060,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
+		(lib_id "tx_amplifier:Screw_Terminal_01x02")
 		(at 80.01 24.13 0)
 		(mirror y)
 		(unit 1)
@@ -3085,7 +3085,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
+		(property "Footprint" "vlc:TerminalBlock_bornier-2_P5.08mm"
 			(at 80.01 24.13 0)
 			(effects
 				(font
@@ -3164,7 +3164,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
+		(lib_id "tx_amplifier:MountingHole")
 		(at 48.26 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3191,7 +3191,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
+		(property "Footprint" "vlc:MountingHole_3.2mm_M3_ISO7380"
 			(at 48.26 24.13 0)
 			(effects
 				(font
@@ -3264,7 +3264,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "tx_amplifier:GND")
 		(at 53.34 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3330,7 +3330,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "tx_amplifier:R_US")
 		(at 73.66 80.01 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3357,7 +3357,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "vlc:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 72.644 79.756 90)
 			(effects
 				(font
@@ -3436,7 +3436,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "tx_amplifier:C")
 		(at 139.7 111.76 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3463,7 +3463,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "vlc:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 138.7348 107.95 0)
 			(effects
 				(font
@@ -3542,7 +3542,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "tx_amplifier:C")
 		(at 120.65 105.41 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3569,7 +3569,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "vlc:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 119.6848 101.6 0)
 			(effects
 				(font
@@ -3648,7 +3648,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
+		(lib_id "tx_amplifier:+3.3V")
 		(at 34.29 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3714,7 +3714,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "tx_amplifier:GND")
 		(at 97.79 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3780,7 +3780,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
+		(lib_id "tx_amplifier:L")
 		(at 130.81 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3805,7 +3805,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "vlc:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 130.81 91.44 0)
 			(effects
 				(font
@@ -3884,7 +3884,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
+		(lib_id "tx_amplifier:L")
 		(at 139.7 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3911,7 +3911,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "vlc:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 139.7 100.33 0)
 			(effects
 				(font
@@ -3990,7 +3990,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
+		(lib_id "tx_amplifier:+3.3V")
 		(at 120.65 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4056,7 +4056,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "tx_amplifier:GND")
 		(at 144.78 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4122,7 +4122,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
+		(lib_id "tx_amplifier:MountingHole")
 		(at 58.42 17.78 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4149,7 +4149,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
+		(property "Footprint" "vlc:MountingHole_3.2mm_M3_ISO7380"
 			(at 58.42 17.78 0)
 			(effects
 				(font
@@ -4222,7 +4222,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
+		(lib_id "tx_amplifier:PWR_FLAG")
 		(at 34.29 29.21 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4288,7 +4288,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
+		(lib_id "tx_amplifier:PWR_FLAG")
 		(at 24.13 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4354,7 +4354,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_NPN_BCE")
+		(lib_id "tx_amplifier:Q_NPN_BCE")
 		(at 99.06 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4463,7 +4463,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
+		(lib_id "tx_amplifier:MountingHole")
 		(at 48.26 17.78 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4490,7 +4490,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
+		(property "Footprint" "vlc:MountingHole_3.2mm_M3_ISO7380"
 			(at 48.26 17.78 0)
 			(effects
 				(font

@@ -167,7 +167,7 @@
 	(net 20 "Net-(D1-K)")
 	(net 21 "Net-(C8-Pad2)")
 	(net 22 "Net-(C11-Pad2)")
-	(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+	(footprint "LumiCom_Transmitter:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "0ea66bc2-169f-4fc6-9c20-dcf4a0319d93")
 		(at 130 64 45)
@@ -298,7 +298,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "LumiCom_Transmitter:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 0 0 45)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -520,7 +520,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+	(footprint "LumiCom_Transmitter:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "12fa9a93-159e-4fd6-8919-5d09d75068b1")
 		(at 121 72)
@@ -677,7 +677,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "LumiCom_Transmitter:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -899,7 +899,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+	(footprint "LumiCom_Transmitter:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "1337b294-94cf-4919-8e4f-51ff04839258")
 		(at 120 64 135)
@@ -1025,7 +1025,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "LumiCom_Transmitter:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1247,7 +1247,7 @@
 			)
 		)
 	)
-	(footprint "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
+	(footprint "LumiCom_Transmitter:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
 		(layer "F.Cu")
 		(uuid "1c676834-ee64-41b2-8682-07e62218bb51")
 		(at 147.3375 75 90)
@@ -1357,7 +1357,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
+		(property "Footprint" "LumiCom_Transmitter:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1369,7 +1369,7 @@
 				)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1870,7 +1870,7 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_3.2mm_M3_ISO7380"
+	(footprint "LumiCom_Transmitter:MountingHole_3.2mm_M3_ISO7380"
 		(layer "F.Cu")
 		(uuid "24a03838-1272-4b88-a0df-b1dce0ece0ea")
 		(at 146 88)
@@ -1961,7 +1961,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
+		(property "Footprint" "LumiCom_Transmitter:MountingHole_3.2mm_M3_ISO7380"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2083,7 +2083,7 @@
 			(uuid "0b7c7b85-1665-4072-8f29-f71962069aa5")
 		)
 	)
-	(footprint "MountingHole:MountingHole_3.2mm_M3_ISO7380"
+	(footprint "LumiCom_Transmitter:MountingHole_3.2mm_M3_ISO7380"
 		(layer "F.Cu")
 		(uuid "2884c1a5-e7a3-45d4-9bcd-89638c991b10")
 		(at 104 54)
@@ -2163,7 +2163,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
+		(property "Footprint" "LumiCom_Transmitter:MountingHole_3.2mm_M3_ISO7380"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2285,7 +2285,7 @@
 			(uuid "d76cd012-6fbc-4f23-945a-8619b41231e5")
 		)
 	)
-	(footprint "Resistor_SMD:R_0603_1608Metric"
+	(footprint "LumiCom_Transmitter:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "36059db9-b920-4935-a842-be2cb481f47c")
 		(at 135 78 -90)
@@ -2467,7 +2467,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "LumiCom_Transmitter:R_0603_1608Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2689,7 +2689,7 @@
 			)
 		)
 	)
-	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+	(footprint "LumiCom_Transmitter:PinHeader_1x03_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "3866ae03-cf32-47dd-acc1-59d5671401d3")
 		(at 136 88 90)
@@ -2795,7 +2795,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "LumiCom_Transmitter:PinHeader_1x03_P2.54mm_Vertical"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3069,7 +3069,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+	(footprint "LumiCom_Transmitter:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "3e5f9ddd-4381-4ad1-b30b-d7a367a8c329")
 		(at 105 62 180)
@@ -3224,7 +3224,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "LumiCom_Transmitter:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3248,7 +3248,7 @@
 				)
 			)
 		)
-		(property "Description" " Thick Film Resistors - SMD 1/10watt 1.2Kohms 1% 0603"
+		(property "Description" "Thick Film Resistors - SMD 1/10watt 1.2Kohms 1% 0603"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3446,7 +3446,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+	(footprint "LumiCom_Transmitter:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "41910693-30ab-4271-82a3-e4c3730e32b8")
 		(at 117 72)
@@ -3624,7 +3624,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "LumiCom_Transmitter:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3846,7 +3846,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+	(footprint "LumiCom_Transmitter:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "4f6fbf32-f1e2-46f6-bfdb-88b22062711b")
 		(at 126 68.862501 90)
@@ -3961,7 +3961,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "LumiCom_Transmitter:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4183,7 +4183,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+	(footprint "LumiCom_Transmitter:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "548842da-e4b6-4d2f-bf50-18e0be482f4a")
 		(at 136 69 -90)
@@ -4298,7 +4298,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "LumiCom_Transmitter:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4520,7 +4520,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_0603_1608Metric"
+	(footprint "LumiCom_Transmitter:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "551a491f-e592-4fb9-97de-c32b63a6e780")
 		(at 115 78 -90)
@@ -4682,7 +4682,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "LumiCom_Transmitter:R_0603_1608Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5660,7 +5660,7 @@
 			)
 		)
 	)
-	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+	(footprint "LumiCom_Transmitter:PinHeader_1x03_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "5df3545b-a5a3-4526-ad2c-994952678342")
 		(at 109 88 90)
@@ -5798,7 +5798,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "LumiCom_Transmitter:PinHeader_1x03_P2.54mm_Vertical"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6072,7 +6072,7 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_3.2mm_M3_ISO7380"
+	(footprint "LumiCom_Transmitter:MountingHole_3.2mm_M3_ISO7380"
 		(layer "F.Cu")
 		(uuid "6f8a7d2b-ceda-45fb-a8b7-104c967f5c6a")
 		(at 104 88)
@@ -6157,7 +6157,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
+		(property "Footprint" "LumiCom_Transmitter:MountingHole_3.2mm_M3_ISO7380"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6279,7 +6279,7 @@
 			(uuid "4c5ffa18-dcde-4c2a-aded-5f914409a26d")
 		)
 	)
-	(footprint "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+	(footprint "LumiCom_Transmitter:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "738fd974-2216-46a8-bee1-1602ec348e75")
 		(at 110 84 180)
@@ -6316,7 +6316,7 @@
 				)
 			)
 		)
-		(property "Value" " Ferrite Beads 220 OHM "
+		(property "Value" "Ferrite Beads 220 OHM"
 			(at 0 1.43 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6670,7 +6670,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "LumiCom_Transmitter:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6694,7 +6694,7 @@
 				)
 			)
 		)
-		(property "Description" " Ferrite Beads 220 OHM 25% Alternate Sizing Guide Below "
+		(property "Description" "Ferrite Beads 220 OHM 25% Alternate Sizing Guide Below"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6892,7 +6892,7 @@
 			)
 		)
 	)
-	(footprint "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
+	(footprint "LumiCom_Transmitter:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
 		(layer "F.Cu")
 		(uuid "7a2b4538-c1e0-48f0-b8be-232bb60966aa")
 		(at 115 52.6625 180)
@@ -7029,7 +7029,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
+		(property "Footprint" "LumiCom_Transmitter:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7041,7 +7041,7 @@
 				)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7542,7 +7542,7 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_3.2mm_M3_ISO7380"
+	(footprint "LumiCom_Transmitter:MountingHole_3.2mm_M3_ISO7380"
 		(layer "F.Cu")
 		(uuid "7eb0c7b9-9b96-4f2a-9999-8547b464a98a")
 		(at 146 54)
@@ -7643,7 +7643,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
+		(property "Footprint" "LumiCom_Transmitter:MountingHole_3.2mm_M3_ISO7380"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7765,7 +7765,7 @@
 			(uuid "21345975-2cef-4b79-9536-1f9457cf84a1")
 		)
 	)
-	(footprint "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
+	(footprint "LumiCom_Transmitter:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
 		(layer "F.Cu")
 		(uuid "8b092cfe-e8bf-431b-a95a-032b8f848c44")
 		(at 103 75 -90)
@@ -7869,7 +7869,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
+		(property "Footprint" "LumiCom_Transmitter:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7881,7 +7881,7 @@
 				)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "~"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8382,7 +8382,7 @@
 			)
 		)
 	)
-	(footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
+	(footprint "LumiCom_Transmitter:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "9bb93cc8-ab96-45de-b648-122899d515d6")
 		(at 123 87)
@@ -8442,7 +8442,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
+		(property "Footprint" "LumiCom_Transmitter:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8946,7 +8946,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+	(footprint "LumiCom_Transmitter:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "9c957c8b-33e8-457a-9ba0-6d642e30f545")
 		(at 129 72 180)
@@ -9114,7 +9114,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "LumiCom_Transmitter:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9384,7 +9384,7 @@
 				)
 			)
 		)
-		(property "Value" " 150060VS75000 "
+		(property "Value" "150060VS75000"
 			(at 0 -2.000001 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -9669,7 +9669,7 @@
 				)
 			)
 		)
-		(property "Description" " Single Color LEDs WL-SMCW SMDMono TpVw Waterclr 0603 BrtGrn "
+		(property "Description" "Single Color LEDs WL-SMCW SMDMono TpVw Waterclr 0603 BrtGrn"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9887,7 +9887,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+	(footprint "LumiCom_Transmitter:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "b7139c31-2a69-494f-9832-2b80fe3af256")
 		(at 124 69 90)
@@ -10036,7 +10036,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "LumiCom_Transmitter:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10258,7 +10258,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+	(footprint "LumiCom_Transmitter:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "b7b41e51-97a8-4e34-9df8-fcc6f9a6d4e4")
 		(at 107 75)
@@ -10372,7 +10372,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "LumiCom_Transmitter:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10594,7 +10594,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+	(footprint "LumiCom_Transmitter:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "b929aea2-5842-415f-afcb-2f96d4791329")
 		(at 115 82 90)
@@ -10719,7 +10719,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "LumiCom_Transmitter:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10941,7 +10941,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+	(footprint "LumiCom_Transmitter:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "bd7efe2b-4fa7-47e7-8040-f7f72211bd1f")
 		(at 143 75 180)
@@ -11071,7 +11071,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "LumiCom_Transmitter:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11293,7 +11293,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+	(footprint "LumiCom_Transmitter:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "c399a137-76ae-41a0-8a89-4b7283868007")
 		(at 114 69 -90)
@@ -11431,7 +11431,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "LumiCom_Transmitter:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11653,7 +11653,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_0603_1608Metric"
+	(footprint "LumiCom_Transmitter:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "cf45b37a-cb9c-4c04-a23b-7a4d93d8d630")
 		(at 111 78 -90)
@@ -11814,7 +11814,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "LumiCom_Transmitter:R_0603_1608Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12036,7 +12036,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+	(footprint "LumiCom_Transmitter:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "d3d0db24-0cf7-4544-87a0-5f23a193dbf0")
 		(at 133 61 45)
@@ -12179,7 +12179,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "LumiCom_Transmitter:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 0 0 45)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12401,7 +12401,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+	(footprint "LumiCom_Transmitter:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "ddc9667a-a22d-4eb7-9b6c-c1c022271113")
 		(at 135 82 90)
@@ -12524,7 +12524,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "LumiCom_Transmitter:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12746,7 +12746,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_0603_1608Metric"
+	(footprint "LumiCom_Transmitter:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "de654d0c-3874-49c0-8733-6fd9ad814458")
 		(at 139 72 -90)
@@ -12893,7 +12893,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "LumiCom_Transmitter:R_0603_1608Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13115,7 +13115,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_0603_1608Metric"
+	(footprint "LumiCom_Transmitter:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "e71d861e-8bdb-46fd-9fc5-6d62178bdbf5")
 		(at 139 78 -90)
@@ -13273,7 +13273,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "LumiCom_Transmitter:R_0603_1608Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13495,7 +13495,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+	(footprint "LumiCom_Transmitter:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "edae5507-1ba6-4e3a-bb88-c925250327ca")
 		(at 125 62 -90)
@@ -13621,7 +13621,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "LumiCom_Transmitter:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13843,7 +13843,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+	(footprint "LumiCom_Transmitter:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "f4506867-0201-4791-8e8f-918a85c7a2c7")
 		(at 133 72 180)
@@ -14026,7 +14026,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "LumiCom_Transmitter:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14248,7 +14248,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_0603_1608Metric"
+	(footprint "LumiCom_Transmitter:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "f49dc7a9-9e9a-458d-919b-d38900149d0f")
 		(at 111 72.175 -90)
@@ -14400,7 +14400,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "LumiCom_Transmitter:R_0603_1608Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14622,7 +14622,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+	(footprint "LumiCom_Transmitter:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "fba3cc60-361b-4998-95ac-d4997754d447")
 		(at 117 61 135)
@@ -14770,7 +14770,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "LumiCom_Transmitter:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14992,7 +14992,7 @@
 			)
 		)
 	)
-	(footprint "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
+	(footprint "LumiCom_Transmitter:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
 		(layer "F.Cu")
 		(uuid "fd005159-39c5-4459-b951-56c927489c70")
 		(at 135 52.6625 180)
@@ -15136,7 +15136,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
+		(property "Footprint" "LumiCom_Transmitter:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15148,7 +15148,7 @@
 				)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")

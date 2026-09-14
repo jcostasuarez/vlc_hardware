@@ -1,0 +1,119 @@
+(footprint
+	"MountingHole_3.2mm_M3_ISO7380"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Mounting Hole 3.2mm, no annular, M3, ISO7380")
+	(tags "mounting hole 3.2mm no annular m3 iso7380")
+	(property
+		"Reference"
+		"REF**"
+		(at 0 -3.85 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property
+		"Value"
+		"MountingHole_3.2mm_M3_ISO7380"
+		(at 0 3.85 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property
+		"Footprint"
+		"MountingHole_3.2mm_M3_ISO7380"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property
+		"Datasheet"
+		"N/A"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property
+		"Description"
+		"Mounting Hole without connection"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "MountingHole*")
+	(fp_circle
+		(center 0 0)
+		(end 2.85 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "da8b83ed-cac4-44fc-9d07-5b1d21b44b3e")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.1 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "761fbb75-b8c5-45fe-bd5f-68761c508267")
+	)
+	(fp_text
+		user
+		"${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "ec1b8ac3-2d54-49fc-b1b0-cd06971c75cd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad
+		""
+		np_thru_hole
+		circle
+		(at 0 0)
+		(size 3.2 3.2)
+		(drill 3.2)
+		(layers "F&B.Cu" "*.Mask")
+		(clearance 1.5)
+	)
+)

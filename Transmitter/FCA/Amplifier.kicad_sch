@@ -5,7 +5,7 @@
 	(uuid "d65679c5-2501-4f48-821d-16a19646717f")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Conn_Coaxial"
+		(symbol "Lumicom_Transmitter:Conn_Coaxial"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -172,7 +172,7 @@
 				)
 			)
 		)
-		(symbol "Device:C_Small"
+		(symbol "Lumicom_Transmitter:C_Small"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
@@ -307,7 +307,7 @@
 				)
 			)
 		)
-		(symbol "Device:R_Small_US"
+		(symbol "Lumicom_Transmitter:R_Small_US"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
@@ -440,7 +440,7 @@
 				)
 			)
 		)
-		(symbol "Jumper:Jumper_3_Bridged12"
+		(symbol "Lumicom_Transmitter:Jumper_3_Bridged12"
 			(pin_names
 				(offset 0) hide)
 			(exclude_from_sim yes)
@@ -1092,7 +1092,7 @@
 				)
 			)
 		)
-		(symbol "power:GND"
+		(symbol "Lumicom_Transmitter:GND"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -1188,7 +1188,7 @@
 				)
 			)
 		)
-		(symbol "power:VCC"
+		(symbol "Lumicom_Transmitter:VCC"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -2280,7 +2280,7 @@
 		(uuid "ff758baf-d07f-4d24-bc08-1d1e084de5b1")
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
+		(lib_id "Lumicom_Transmitter:R_Small_US")
 		(at 228.6 104.14 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2384,7 +2384,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "Lumicom_Transmitter:GND")
 		(at 176.53 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2451,7 +2451,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "Lumicom_Transmitter:GND")
 		(at 163.83 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2518,7 +2518,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "Lumicom_Transmitter:C_Small")
 		(at 214.63 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2622,7 +2622,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "Lumicom_Transmitter:GND")
 		(at 138.43 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2689,7 +2689,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
+		(lib_id "Lumicom_Transmitter:R_Small_US")
 		(at 101.6 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2716,7 +2716,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "LumiCom_Transmitter:R_0603_1608Metric"
 			(at 101.6 69.85 0)
 			(effects
 				(font
@@ -2795,7 +2795,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "Lumicom_Transmitter:C_Small")
 		(at 95.25 133.35 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2901,7 +2901,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
+		(lib_id "Lumicom_Transmitter:R_Small_US")
 		(at 180.34 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2926,7 +2926,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "LumiCom_Transmitter:R_0603_1608Metric"
 			(at 180.34 119.38 0)
 			(effects
 				(font
@@ -3005,7 +3005,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_Coaxial")
+		(lib_id "Lumicom_Transmitter:Conn_Coaxial")
 		(at 254 81.28 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -3099,7 +3099,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
+		(lib_id "Lumicom_Transmitter:R_Small_US")
 		(at 101.6 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3126,7 +3126,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "LumiCom_Transmitter:R_0603_1608Metric"
 			(at 101.6 57.15 0)
 			(effects
 				(font
@@ -3205,7 +3205,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_3_Bridged12")
+		(lib_id "Lumicom_Transmitter:Jumper_3_Bridged12")
 		(at 149.86 45.72 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -3230,7 +3230,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "LumiCom_Transmitter:PinHeader_1x03_P2.54mm_Vertical"
 			(at 149.86 45.72 0)
 			(effects
 				(font
@@ -3276,7 +3276,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
+		(lib_id "Lumicom_Transmitter:VCC")
 		(at 101.6 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3343,7 +3343,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_Coaxial")
+		(lib_id "Lumicom_Transmitter:Conn_Coaxial")
 		(at 82.55 63.5 0)
 		(mirror y)
 		(unit 1)
@@ -3439,7 +3439,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "Lumicom_Transmitter:GND")
 		(at 165.1 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3506,7 +3506,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "Lumicom_Transmitter:GND")
 		(at 138.43 45.72 0)
 		(mirror y)
 		(unit 1)
@@ -3573,7 +3573,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
+		(lib_id "Lumicom_Transmitter:R_Small_US")
 		(at 76.2 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3600,7 +3600,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "LumiCom_Transmitter:R_0603_1608Metric"
 			(at 76.2 120.65 0)
 			(effects
 				(font
@@ -3679,7 +3679,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
+		(lib_id "Lumicom_Transmitter:R_Small_US")
 		(at 114.3 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3706,7 +3706,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "LumiCom_Transmitter:R_0603_1608Metric"
 			(at 114.3 69.85 0)
 			(effects
 				(font
@@ -3785,7 +3785,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
+		(lib_id "Lumicom_Transmitter:R_Small_US")
 		(at 151.13 135.89 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3812,7 +3812,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "LumiCom_Transmitter:R_0603_1608Metric"
 			(at 151.13 135.89 0)
 			(effects
 				(font
@@ -3891,7 +3891,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
+		(lib_id "Lumicom_Transmitter:R_Small_US")
 		(at 113.03 106.68 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3918,7 +3918,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "LumiCom_Transmitter:R_0603_1608Metric"
 			(at 113.03 106.68 0)
 			(effects
 				(font
@@ -3997,7 +3997,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_3_Bridged12")
+		(lib_id "Lumicom_Transmitter:Jumper_3_Bridged12")
 		(at 176.53 45.72 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -4022,7 +4022,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "LumiCom_Transmitter:PinHeader_1x03_P2.54mm_Vertical"
 			(at 176.53 45.72 0)
 			(effects
 				(font
@@ -4068,7 +4068,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
+		(lib_id "Lumicom_Transmitter:R_Small_US")
 		(at 125.73 106.68 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4095,7 +4095,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "LumiCom_Transmitter:R_0603_1608Metric"
 			(at 125.73 106.68 0)
 			(effects
 				(font
@@ -4174,7 +4174,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
+		(lib_id "Lumicom_Transmitter:R_Small_US")
 		(at 191.77 128.27 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4199,7 +4199,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "LumiCom_Transmitter:R_0603_1608Metric"
 			(at 191.77 128.27 0)
 			(effects
 				(font
@@ -4278,7 +4278,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "Lumicom_Transmitter:GND")
 		(at 114.3 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4345,7 +4345,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "Lumicom_Transmitter:GND")
 		(at 76.2 127 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4412,7 +4412,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "Lumicom_Transmitter:GND")
 		(at 151.13 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4479,7 +4479,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "Lumicom_Transmitter:GND")
 		(at 190.5 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4546,7 +4546,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
+		(lib_id "Lumicom_Transmitter:R_Small_US")
 		(at 176.53 135.89 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4573,7 +4573,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "LumiCom_Transmitter:R_0603_1608Metric"
 			(at 176.53 135.89 0)
 			(effects
 				(font
@@ -4652,7 +4652,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "Lumicom_Transmitter:C_Small")
 		(at 69.85 114.3 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4756,7 +4756,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "Lumicom_Transmitter:GND")
 		(at 82.55 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4823,7 +4823,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "Lumicom_Transmitter:GND")
 		(at 101.6 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4890,7 +4890,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_Coaxial")
+		(lib_id "Lumicom_Transmitter:Conn_Coaxial")
 		(at 57.15 114.3 0)
 		(mirror y)
 		(unit 1)
@@ -4986,7 +4986,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "Lumicom_Transmitter:GND")
 		(at 95.25 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5053,7 +5053,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
+		(lib_id "Lumicom_Transmitter:R_Small_US")
 		(at 76.2 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5080,7 +5080,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "LumiCom_Transmitter:R_0603_1608Metric"
 			(at 76.2 107.95 0)
 			(effects
 				(font
@@ -5159,7 +5159,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
+		(lib_id "Lumicom_Transmitter:VCC")
 		(at 163.83 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5226,7 +5226,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
+		(lib_id "Lumicom_Transmitter:R_Small_US")
 		(at 227.33 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5330,7 +5330,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
+		(lib_id "Lumicom_Transmitter:VCC")
 		(at 76.2 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5397,7 +5397,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "Lumicom_Transmitter:GND")
 		(at 57.15 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5464,7 +5464,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "Lumicom_Transmitter:C_Small")
 		(at 215.9 104.14 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5568,7 +5568,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "Lumicom_Transmitter:GND")
 		(at 171.45 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5635,7 +5635,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "Lumicom_Transmitter:GND")
 		(at 187.325 104.775 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5855,7 +5855,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_Coaxial")
+		(lib_id "Lumicom_Transmitter:Conn_Coaxial")
 		(at 252.73 104.14 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -5949,7 +5949,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "Lumicom_Transmitter:GND")
 		(at 142.24 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6016,7 +6016,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "Lumicom_Transmitter:C_Small")
 		(at 138.43 135.89 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -6113,7 +6113,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
+		(lib_id "Lumicom_Transmitter:R_Small_US")
 		(at 95.25 123.825 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6140,7 +6140,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "LumiCom_Transmitter:R_0603_1608Metric"
 			(at 95.25 123.825 0)
 			(effects
 				(font
@@ -6219,7 +6219,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "Lumicom_Transmitter:C_Small")
 		(at 163.83 135.89 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -6316,7 +6316,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "Lumicom_Transmitter:GND")
 		(at 254 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6383,7 +6383,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "Lumicom_Transmitter:C_Small")
 		(at 95.25 63.5 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6487,7 +6487,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "Lumicom_Transmitter:C_Small")
 		(at 114.3 76.2 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6593,7 +6593,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "Lumicom_Transmitter:GND")
 		(at 252.73 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6660,7 +6660,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "Lumicom_Transmitter:GND")
 		(at 158.75 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)

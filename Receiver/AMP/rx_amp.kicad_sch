@@ -5,7 +5,7 @@
 	(uuid "c9885e95-1a7f-4704-a798-f124c81e9803")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Conn_Coaxial"
+		(symbol "rx_amp:Conn_Coaxial"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -172,7 +172,7 @@
 				)
 			)
 		)
-		(symbol "Connector:Screw_Terminal_01x02"
+		(symbol "rx_amp:Screw_Terminal_01x02"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -359,7 +359,7 @@
 				)
 			)
 		)
-		(symbol "Device:C_Small"
+		(symbol "rx_amp:C_Small"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
@@ -494,7 +494,7 @@
 				)
 			)
 		)
-		(symbol "Device:L_Ferrite_Small"
+		(symbol "rx_amp:L_Ferrite_Small"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
@@ -845,7 +845,7 @@
 				)
 			)
 		)
-		(symbol "Device:L_Small"
+		(symbol "rx_amp:L_Small"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
@@ -1004,7 +1004,7 @@
 				)
 			)
 		)
-		(symbol "Device:R_Small_US"
+		(symbol "rx_amp:R_Small_US"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
@@ -1137,7 +1137,7 @@
 				)
 			)
 		)
-		(symbol "Mechanical:MountingHole"
+		(symbol "rx_amp:MountingHole"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1219,7 +1219,7 @@
 				)
 			)
 		)
-		(symbol "power:GND"
+		(symbol "rx_amp:GND"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -1315,7 +1315,7 @@
 				)
 			)
 		)
-		(symbol "power:PWR_FLAG"
+		(symbol "rx_amp:PWR_FLAG"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -1824,7 +1824,7 @@
 		(uuid "fdf8cc45-06fd-4220-9d9e-2249c8638341")
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "rx_amp:GND")
 		(at 137.16 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1890,7 +1890,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L_Small")
+		(lib_id "rx_amp:L_Small")
 		(at 177.8 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1917,7 +1917,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "rx_amp:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 177.8 76.2 0)
 			(effects
 				(font
@@ -1987,7 +1987,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "rx_amp:GND")
 		(at 88.9 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2053,7 +2053,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "rx_amp:C_Small")
 		(at 198.12 104.14 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2078,7 +2078,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "rx_amp:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 198.12 104.14 0)
 			(effects
 				(font
@@ -2252,7 +2252,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_Coaxial")
+		(lib_id "rx_amp:Conn_Coaxial")
 		(at 215.9 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2276,7 +2276,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
+		(property "Footprint" "rx_amp:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
 			(at 215.9 104.14 0)
 			(effects
 				(font
@@ -2328,7 +2328,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "rx_amp:GND")
 		(at 132.08 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2394,7 +2394,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
+		(lib_id "rx_amp:PWR_FLAG")
 		(at 137.16 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2460,7 +2460,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L_Ferrite_Small")
+		(lib_id "rx_amp:L_Ferrite_Small")
 		(at 154.94 50.8 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2484,7 +2484,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "rx_amp:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 154.94 50.8 0)
 			(effects
 				(font
@@ -2554,7 +2554,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "rx_amp:GND")
 		(at 170.18 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2620,7 +2620,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
+		(lib_id "rx_amp:R_Small_US")
 		(at 177.8 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2647,7 +2647,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "rx_amp:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 177.8 63.5 0)
 			(effects
 				(font
@@ -2717,7 +2717,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "rx_amp:GND")
 		(at 215.9 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2783,7 +2783,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_Coaxial")
+		(lib_id "rx_amp:Conn_Coaxial")
 		(at 88.9 101.6 0)
 		(mirror y)
 		(unit 1)
@@ -2809,7 +2809,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
+		(property "Footprint" "rx_amp:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
 			(at 88.9 101.6 0)
 			(effects
 				(font
@@ -2861,7 +2861,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "rx_amp:GND")
 		(at 203.2 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2927,7 +2927,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
+		(lib_id "rx_amp:Screw_Terminal_01x02")
 		(at 127 53.34 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2951,7 +2951,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_RND:TerminalBlock_RND_205-00001_1x02_P5.00mm_Horizontal"
+		(property "Footprint" "rx_amp:TerminalBlock_RND_205-00001_1x02_P5.00mm_Horizontal"
 			(at 127 53.34 0)
 			(effects
 				(font
@@ -3003,7 +3003,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L_Small")
+		(lib_id "rx_amp:L_Small")
 		(at 177.8 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3030,7 +3030,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "rx_amp:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 177.8 88.9 0)
 			(effects
 				(font
@@ -3100,7 +3100,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
+		(lib_id "rx_amp:MountingHole")
 		(at 228.6 63.5 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -3127,7 +3127,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
+		(property "Footprint" "rx_amp:MountingHole_3.2mm_M3_DIN965"
 			(at 228.6 63.5 0)
 			(effects
 				(font
@@ -3173,7 +3173,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
+		(lib_id "rx_amp:MountingHole")
 		(at 228.6 76.2 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -3200,7 +3200,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
+		(property "Footprint" "rx_amp:MountingHole_3.2mm_M3_DIN965"
 			(at 228.6 76.2 0)
 			(effects
 				(font
@@ -3246,7 +3246,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "rx_amp:C_Small")
 		(at 193.04 50.8 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3271,7 +3271,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "rx_amp:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 193.04 50.8 0)
 			(effects
 				(font
@@ -3341,7 +3341,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "rx_amp:C_Small")
 		(at 114.3 101.6 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3366,7 +3366,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "rx_amp:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 114.3 101.6 0)
 			(effects
 				(font
@@ -3436,7 +3436,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
+		(lib_id "rx_amp:PWR_FLAG")
 		(at 132.08 63.5 270)
 		(unit 1)
 		(exclude_from_sim no)

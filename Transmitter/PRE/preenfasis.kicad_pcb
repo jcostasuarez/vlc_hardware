@@ -99,7 +99,7 @@
 	(net 10 "Net-(J4-In)")
 	(net 11 "Net-(R6-Pad1)")
 	(net 12 "Net-(J3-Ext)")
-	(footprint "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+	(footprint "preenfasis:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "0bdee912-e782-428f-9a32-fb5b66d5a634")
 		(at 116.84 91.694)
@@ -127,7 +127,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "preenfasis:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -363,7 +363,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+	(footprint "preenfasis:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "2434f3c2-baf2-4037-94aa-084efc1a1882")
 		(at 107.95 72.39)
@@ -391,7 +391,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "preenfasis:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -625,7 +625,7 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_3.2mm_M3_ISO7380"
+	(footprint "preenfasis:MountingHole_3.2mm_M3_ISO7380"
 		(layer "F.Cu")
 		(uuid "28380213-2113-4ca4-92df-97ba5f819f17")
 		(at 122 63)
@@ -654,7 +654,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
+		(property "Footprint" "preenfasis:MountingHole_3.2mm_M3_ISO7380"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -788,7 +788,7 @@
 			(uuid "249085e1-070a-410d-9d13-751b3c131746")
 		)
 	)
-	(footprint "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+	(footprint "preenfasis:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "2e0b9029-bde8-4174-9ad5-456d5a01e870")
 		(at 116.84 86.106)
@@ -816,7 +816,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "preenfasis:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1052,7 +1052,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+	(footprint "preenfasis:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "38242275-8a72-44e5-b4b8-14654d88b09f")
 		(at 116.84 72.39)
@@ -1080,7 +1080,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "preenfasis:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1314,7 +1314,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+	(footprint "preenfasis:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "3f5bb1bc-4e30-428f-ba31-f869f178f3ce")
 		(at 116.84 88.9)
@@ -1342,7 +1342,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "preenfasis:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1576,7 +1576,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+	(footprint "preenfasis:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "3fcceb30-3c22-406f-abe5-aa101db7afe2")
 		(at 112.395 89.8125 -90)
@@ -1604,7 +1604,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "preenfasis:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1838,7 +1838,7 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_3.2mm_M3_ISO7380"
+	(footprint "preenfasis:MountingHole_3.2mm_M3_ISO7380"
 		(layer "F.Cu")
 		(uuid "423d5794-ee51-4515-b5fc-714f0499992b")
 		(at 103 63)
@@ -1867,7 +1867,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
+		(property "Footprint" "preenfasis:MountingHole_3.2mm_M3_ISO7380"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2001,7 +2001,7 @@
 			(uuid "edb075a0-576d-4ebf-81f6-d3e937bd941e")
 		)
 	)
-	(footprint "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
+	(footprint "preenfasis:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
 		(layer "F.Cu")
 		(uuid "533cb185-3aa0-409b-8831-754a8754ddd7")
 		(at 102.743 72.39 -90)
@@ -2029,7 +2029,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
+		(property "Footprint" "preenfasis:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2541,7 +2541,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+	(footprint "preenfasis:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "5739e8d7-7777-40ff-9ba4-ab04b59acb88")
 		(at 107.95 91.694)
@@ -2569,7 +2569,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "preenfasis:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2803,7 +2803,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+	(footprint "preenfasis:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "5c6d7160-4d59-41f1-997f-f704a04cb216")
 		(at 112.395 83.82)
@@ -2831,7 +2831,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "preenfasis:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3065,7 +3065,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+	(footprint "preenfasis:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "66a9347d-f415-4f8b-b6b8-a17d88006159")
 		(at 107.95 86.106)
@@ -3093,7 +3093,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "preenfasis:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3327,7 +3327,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+	(footprint "preenfasis:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "7548502d-9ce3-4554-9cd0-e044bfe14311")
 		(at 107.95 69.596)
@@ -3355,7 +3355,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "preenfasis:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3589,7 +3589,7 @@
 			)
 		)
 	)
-	(footprint "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+	(footprint "preenfasis:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "820a72a1-bb2a-404a-805a-593002d9a317")
 		(at 116.84 69.596)
@@ -3617,7 +3617,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "preenfasis:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3853,7 +3853,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+	(footprint "preenfasis:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "85920395-19e9-423c-85cd-6c1cbd037d04")
 		(at 112.395 67.31)
@@ -3881,7 +3881,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "preenfasis:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4115,7 +4115,7 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_3.2mm_M3_ISO7380"
+	(footprint "preenfasis:MountingHole_3.2mm_M3_ISO7380"
 		(layer "F.Cu")
 		(uuid "99404652-02fc-42fd-9ba9-70e9f1bac594")
 		(at 122 97)
@@ -4144,7 +4144,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
+		(property "Footprint" "preenfasis:MountingHole_3.2mm_M3_ISO7380"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4278,7 +4278,7 @@
 			(uuid "23b7d001-f919-42c9-83ad-b9d9974e1825")
 		)
 	)
-	(footprint "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
+	(footprint "preenfasis:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
 		(layer "F.Cu")
 		(uuid "a0dadcfb-d593-481b-b052-9e58d57b2a32")
 		(at 122.174 88.9 90)
@@ -4306,7 +4306,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
+		(property "Footprint" "preenfasis:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4818,7 +4818,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+	(footprint "preenfasis:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "b34443ef-c255-4c64-a5f3-119d3efaf814")
 		(at 112.395 73.3025 -90)
@@ -4846,7 +4846,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "preenfasis:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5080,7 +5080,7 @@
 			)
 		)
 	)
-	(footprint "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
+	(footprint "preenfasis:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
 		(layer "F.Cu")
 		(uuid "d9b5dda0-58da-4d3d-b8e7-167341e6a3bc")
 		(at 122.174 72.39 90)
@@ -5108,7 +5108,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
+		(property "Footprint" "preenfasis:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5620,7 +5620,7 @@
 			)
 		)
 	)
-	(footprint "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
+	(footprint "preenfasis:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
 		(layer "F.Cu")
 		(uuid "da659e1c-372f-47ef-b493-9b8246515a4e")
 		(at 102.816 88.9 -90)
@@ -5648,7 +5648,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
+		(property "Footprint" "preenfasis:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6160,7 +6160,7 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_3.2mm_M3_ISO7380"
+	(footprint "preenfasis:MountingHole_3.2mm_M3_ISO7380"
 		(layer "F.Cu")
 		(uuid "de74ee98-a7bd-4c5f-b970-e297244bf4cb")
 		(at 103 97)
@@ -6189,7 +6189,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
+		(property "Footprint" "preenfasis:MountingHole_3.2mm_M3_ISO7380"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6323,7 +6323,7 @@
 			(uuid "3952e43c-383b-4590-ba33-63a3925ddbd4")
 		)
 	)
-	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+	(footprint "preenfasis:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "e79ac1be-b814-48cc-bcf2-269f0c90253f")
 		(at 107.95 75.184)
@@ -6351,7 +6351,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "preenfasis:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6585,7 +6585,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+	(footprint "preenfasis:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "e9bfffe8-d8b8-4bcf-b3bc-21ce62f43401")
 		(at 107.95 88.9)
@@ -6613,7 +6613,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "preenfasis:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6847,7 +6847,7 @@
 			)
 		)
 	)
-	(footprint "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+	(footprint "preenfasis:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "fd9d2685-f219-4d4b-977a-b174676c72b0")
 		(at 116.84 75.184)
@@ -6875,7 +6875,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "preenfasis:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
