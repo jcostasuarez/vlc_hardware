@@ -86,9 +86,10 @@ puede simplificar y conviene ajustarla:
    analógica de adaptación. Si se hace en analógico, usar el filtro `PRE` y no
    repetirlo.
 3. **El bias-tee va en la placa LED** (`J3 → L1 → nodo del LED`, con `C1`/`C2`
-   acoplando `J1`/`J2`). Es la forma correcta de sumar polarización DC y RF, pero
-   fija un pasabanda de ≈0,7 MHz a ≈39 MHz; para otra banda hay que redimensionar
-   L1 y C1/C2. El último estado del driver debe ser de corriente con polarización DC. Un
+   acoplando `J1`/`J2`). Es la forma correcta de sumar polarización DC y RF. Con
+   los valores de la placa (L1=206 nH, C=100 nF) es un pasoalto con corte
+   ≈1,45 MHz, fijado por el choque; para bajarlo, L1=4,7–10 µH y C≥1 µF
+   (≈85 kHz). La banda alta la fijan el LED y el driver. El último estado del driver debe ser de corriente con polarización DC. Un
    LED común necesita decenas a cientos de mA y tiene impedancia dinámica de
    pocos ohmios (≈1–5 Ω). Un amplificador de tensión adaptado a 50 Ω entrega muy
    poca corriente de modulación (≈1 mA/V según la simulación). Usar el lazo

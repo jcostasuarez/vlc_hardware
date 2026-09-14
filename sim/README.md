@@ -98,8 +98,20 @@ igual que el montaje real:
 Subcircuitos reutilizables en `sim/models/`: `preemphasis.sub`, `tx_amp.sub`,
 `fca.sub`, `bias_tee.sub`, `led_equiv.sub`, `rx_amp.sub`. La placa LED entra en
 la cadena como **bias-tee** (`BIAS_TEE`: C1/C2 de acople + L1 de polarización)
-con el LED como carga (`LED_EQ`). El bias-tee de la placa LED tiene un pasabanda
-de ≈0,7 MHz (acople C=0,1 µF con R_LED≈2,3 Ω) a ≈39 MHz (choque L=206 nH).
+con el LED como carga (`LED_EQ`). El bias-tee de la placa LED (L1=206 nH, C1/C2=0,1 µF) es un **pasoalto** con
+corte ≈1,45 MHz; el corte lo fija el choque L1 (que a baja frecuencia deriva
+corriente del LED) y no la banda alta. Barrido de L1 con C=0,1 µF:
+
+| L1 | f_low (−3 dB) |
+|---|---:|
+| 206 nH | 1,45 MHz |
+| 1 µH | 347 kHz |
+| 4,7 µH | 85 kHz |
+| 10 µH | 51 kHz |
+| 47 µH | 33 kHz |
+
+Con L1=10 µH, subir C1/C2 a 1 µF baja el corte a ≈35 kHz (ahí manda el choque).
+La banda alta la fijan el LED y el driver, no el choque.
 
 El enlace óptico se modela con una fuente `F` (`I_pd = K · I_LED`), donde `K`
 agrupa eficiencia del LED, acoplamiento óptico y responsividad del fotodiodo
