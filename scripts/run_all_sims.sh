@@ -16,5 +16,11 @@ run sim/tx_amplifier/tran.cir                    --vec v\(out\)
 run sim/rx_amp/ac.cir                            --vec v\(out\)
 run sim/fca/ac.cir                               --vec v\(out\)
 run sim/fca/tran.cir                             --vec v\(out\)
+run sim/system/tx_chain.cir                      --vec i\(vsense\)
+run sim/system/tx_chain_fca.cir                  --vec i\(vsense\)
+run sim/system/rx_chain.cir                      --vec v\(out\)
+run sim/system/rx_chain_noise.cir                --noise
+run sim/system/link.cir                          --vec v\(out\)
+run sim/system/link_tran.cir                     --vec v\(out\)
 
 python3 scripts/summarize_sims.py "$out"

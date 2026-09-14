@@ -1,0 +1,12 @@
+* RX amplifier board (BGA616 buffer).  Values from Receiver/AMP/rx_amp.kicad_sch.
+* The deck must include the BGA616 model.  Ports: in out vcc gnd
+.subckt RXAMP in out vcc gnd
+C1 in amp_in 0.1u
+XB amp_in amp_out gnd BGA616
+L1 n3 n1b 10u
+R1 n3 n1a 15
+L3 vcc n3 0.22u
+C3 n3 gnd 0.1u
+L2 n1b amp_out 10u
+C2 amp_out out 0.1u
+.ends RXAMP

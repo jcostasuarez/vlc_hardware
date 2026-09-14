@@ -103,6 +103,10 @@ requiere un binario `ngspice`. Incluye respuesta en frecuencia, transitorios y
 están en [sim/README.md](sim/README.md), y los resultados en
 [docs/sim/RESULTS.md](docs/sim/RESULTS.md).
 
+Además de cada placa, `sim/system/` interconecta la cadena completa
+(`tx_chain`, `tx_chain_fca`, `rx_chain`, `link`) con interfaces de 50 Ω, incluido
+el enlace óptico LED → fotodiodo.
+
 ## Estado de revisión
 
 Las ocho placas pasan **ERC y DRC con 0 errores y 0 avisos**, incluyendo DRC con

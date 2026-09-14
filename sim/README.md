@@ -80,3 +80,37 @@ entregados a 50 Ω) y el OPA2675 la ganancia cerrada de 4,02.
 `.noise` está en `sim/lmh34400/noise.cir` (modelo TI nativo) y
 `sim/ltc6268-10/noise.cir` (macromodelo). `docs/sim/RESULTS.md` reporta densidad
 espectral a 1 MHz e integrada sobre la banda.
+
+## Simulación de sistema (interconexión de placas)
+
+Los decks de `sim/system/` encadenan las placas con interfaces de 50 Ω (SMA),
+igual que el montaje real:
+
+| Deck | Cadena | Salida analizada |
+|---|---|---|
+| `tx_chain` | Pitaya (50 Ω) → `preenfasis` → `tx_amplifier` → `LED` (bias-T + LED) | corriente de LED y monitor J2 |
+| `tx_chain_fca` | Pitaya → `preenfasis` → `FCA` → `LED` | corriente de LED |
+| `rx_chain` | `PD` → `TIA LMH34400` → `rx_amp` | transimpedancia total |
+| `rx_chain_noise` | ídem, con `.noise` | ruido de la cadena RX |
+| `link` | TX → enlace óptico → RX | ganancia extremo a extremo |
+| `link_tran` | ídem, transitorio | respuesta temporal |
+
+Subcircuitos reutilizables en `sim/models/`: `preemphasis.sub`, `tx_amp.sub`,
+`fca.sub`, `led_board.sub`, `rx_amp.sub`.
+
+El enlace óptico se modela con una fuente `F` (`I_pd = K · I_LED`), donde `K`
+agrupa eficiencia del LED, acoplamiento óptico y responsividad del fotodiodo
+(`K = 1e-3` por defecto). Los decks llevan bloqueos de continua para que la
+realimentación óptica no altere la polarización.
+
+Resultados destacados (ver `docs/sim/RESULTS.md`):
+
+- `tx_chain`: corriente de LED ≈ 1,0 mA/V pico a ≈52 MHz (con preénfasis).
+- `tx_chain_fca`: pico a ≈0,94 MHz — la red R7/C6 de la FCA corta en ≈32 kHz y
+  limita el ancho de banda de TX.
+- `rx_chain`: ≈7·10⁵ V/A (TIA + rx_amp) con −3 dB en ≈204 MHz.
+- `link`: ≈0,68 V/V a 50 MHz con `K = 1e-3`.
+
+> Nota: la FCA tiene dos juegos de valores según el esquema. El netlist raíz
+> (`LumiCom_Transmitter.kicad_sch`, usado por el PCB) da R11=402/R9=133; la hoja
+> `Amplifier.kicad_sch` da 390/120. El deck usa los del netlist raíz.

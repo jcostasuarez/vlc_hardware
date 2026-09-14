@@ -71,3 +71,40 @@ localmente (no versionados) en `build/backups/2026-09-14-*`.
 Las ocho placas dan ERC y DRC con 0 errores y 0 avisos. Pendiente de fabricación:
 confirmar la pila RF de 1,2 mm y la decisión de no poblar JP1 en `LMH34400`; ver
 `docs/REVISION_PCB.md`.
+
+## Cadena de excitación del LED (recomendación)
+
+La cadena propuesta —Pitaya → preénfasis → FCA → amplificador discreto → LED— se
+puede simplificar y conviene ajustarla:
+
+1. **Un solo driver.** Encadenar FCA + `tx_amplifier` suma ruido y distorsión y
+   recorta banda. La simulación de sistema lo muestra: con el amplificador
+   discreto la corriente de LED pica a ≈52 MHz; con la FCA pica a ≈0,94 MHz,
+   porque su red de entrada R7/C6 (49,9 Ω / 0,1 µF) corta en ≈32 kHz.
+2. **Preénfasis una sola vez.** Mejor en digital dentro de la FPGA de la Red
+   Pitaya (ajustable, sin dispersión de componentes) y dejar una única etapa
+   analógica de adaptación. Si se hace en analógico, usar el filtro `PRE` y no
+   repetirlo.
+3. **El último estado debe ser un driver de corriente con polarización DC.** Un
+   LED común necesita decenas a cientos de mA y tiene impedancia dinámica de
+   pocos ohmios (≈1–5 Ω). Un amplificador de tensión adaptado a 50 Ω entrega muy
+   poca corriente de modulación (≈1 mA/V según la simulación). Usar el lazo
+   `bornera → L1 → LED → GND` de la placa LED como bias-T y un driver con
+   capacidad de corriente: la **FCA (OPA2675)** tiene la salida de corriente para
+   esto; el **`tx_amplifier` (BFR740L3RH)** es un transistor de RF pequeño, sirve
+   como pre-driver, no como driver de potencia.
+4. **Límites reales del LED.** El ancho de banda de un LED común lo fijan el
+   tiempo de vida de portadores y el RC (unos pocos a decenas de MHz). El
+   preénfasis extiende el −3 dB a costa de rango dinámico; para más velocidad
+   conviene un LED azul/IR de baja capacidad o un láser.
+5. **Validar contra mediciones.** El repositorio ya tiene 74 mediciones `.s2p`
+   en `vna/`; conviene superponerlas con las respuestas simuladas (`sim/system`).
+
+Cadena recomendada:
+
+```
+Red Pitaya (preénfasis digital en FPGA)
+   └─ 50 Ω ─► [PRE analógico opcional] ─► driver DC (FCA/OPA2675)
+        └─ bias-T (L1) + acople (C1) ─► LED
+Rx: PD ─► TIA (LMH34400) ─► rx_amp ─► ADC/osciloscopio
+```

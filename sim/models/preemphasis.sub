@@ -1,0 +1,12 @@
+* Pre-emphasis T filter (channel A) - passive, 50 ohm system.
+* Values from Transmitter/PRE/preenfasis.kicad_sch.  Ports: in out gnd
+.subckt PREEMPHASIS in out gnd
+R1 in out 825
+C1 in c1 62p
+L1 c1 out 150n
+R3 in m 49.9
+R4 m out 49.9
+R2 m c2 3
+C2 c2 gnd 62p
+L2 c2 gnd 150n
+.ends PREEMPHASIS

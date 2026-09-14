@@ -13,6 +13,10 @@ Supuestos de los modelos en `sim/README.md`.
 | `ltc6268-10` | 1e+03..1e+09 Hz | 1.5e+03 | 7.41e+03 Hz | 7.59e+07 Hz |
 | `preenfasis__filtro_t` | 1e+05..5e+08 Hz | 0.5 | 5.22e+07 Hz | 8.28e+07 Hz |
 | `rx_amp` | 1e+05..1e+10 Hz | 8.9 | 8.91e+09 Hz | > banda |
+| `system__link` | 1e+03..1e+09 Hz | 0.682 | 5.25e+07 Hz | 8.71e+07 Hz |
+| `system__rx_chain` | 1e+03..1e+09 Hz | 7.02e+05 | 2.09e+06 Hz | 2.04e+08 Hz |
+| `system__tx_chain` | 1e+04..1e+09 Hz | 0.00101 | 5.25e+07 Hz | 8.51e+07 Hz |
+| `system__tx_chain_fca` | 1e+04..1e+09 Hz | 0.00118 | 9.44e+05 Hz | 1.72e+06 Hz |
 | `tx_amplifier` | 1e+03..1e+10 Hz | 6.65 | 1.51e+04 Hz | 4.84e+08 Hz |
 
 ## Transitorio
@@ -20,6 +24,7 @@ Supuestos de los modelos en `sim/README.md`.
 | Deck | pico-pico |
 |---|---:|
 | `fca` | 0.00761 V |
+| `system__link` | 0.0134 V |
 | `tx_amplifier` | 0.00884 V |
 
 ## Ruido
@@ -28,3 +33,4 @@ Supuestos de los modelos en `sim/README.md`.
 |---|---:|---:|---:|---:|
 | `lmh34400` | 5.48e-07 V/√Hz | 2.68e-11 A/√Hz | 0.0242 V | 2.06e-06 A |
 | `ltc6268-10` | 6.74e-09 V/√Hz | 4.49e-12 A/√Hz | 0.000335 V | 2.29e-06 A |
+| `system__rx_chain_noise` | 1.76e-05 V/√Hz | 2.68e-11 A/√Hz | 0.755 V | 2.06e-06 A |

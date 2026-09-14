@@ -1,0 +1,16 @@
+* FCA channel A (OPA2675) - amplifier + input filter.
+* Values from the root netlist LumiCom_Transmitter.kicad_sch.
+* The deck must include the OPA2675 model.  Ports: in out vcc vee gnd
+.subckt FCA in out vcc vee gnd
+C4 in npi 0.1u
+R7 npi npi2 49.9
+C6 npi2 gnd 0.1u
+R4 vcc npi2 5.1k
+R5 npi2 gnd 5.1k
+XU npi2 nni outa vcc vee 0 gnd OPA2675
+R11 nni outa 402
+R9 nni c8 133
+C8 c8 gnd 0.1u
+C9 outa o1 0.1u
+R13 o1 out 1
+.ends FCA

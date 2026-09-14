@@ -1,0 +1,11 @@
+* LED board bias-T + LED small-signal equivalent (Li et al. 2019).
+* Values from Transmitter/LED/LED.kicad_sch.  Ports: rf bias gnd
+.subckt LEDBOARD rf bias gnd
+C1 rf n1 0.1u
+L1 bias n1 206n
+R8 n1 a 1.35
+L3 a b 0.99n
+R9 b c 0.54
+C4 b c 130n
+R10 c gnd 0.39
+.ends LEDBOARD

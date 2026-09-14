@@ -1,0 +1,16 @@
+* RX chain: photodiode -> TIA (LMH34400) -> RX amplifier -> 50 ohm.
+.include ../models/lmh34400.lib
+.include ../models/bga616.lib
+.include ../models/rx_amp.sub
+.param VCC=3.3
+Vdd  vdd 0 {VCC}
+Ven  nen 0 0
+Valc nidc 0 3.3
+Ipd  0 pd ac 1
+Cd   pd 0 1p
+XU1  pd vdd nen nidc 0 tiaout LMH34400
+Vrx  vccrx 0 5
+XRX  tiaout out vccrx 0 RXAMP
+Rl   out 0 50
+.ac dec 100 1k 1G
+.end

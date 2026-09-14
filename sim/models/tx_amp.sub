@@ -1,0 +1,17 @@
+* Discrete TX amplifier (BFR740L3RH).  Values from tx_amplifier.kicad_sch.
+* The deck must include the BFR740L3RH model.  Ports: in out vcc gnd
+.subckt TXAMP in out vcc gnd
+C1 in b 1u
+R4 b n6 910
+C6 n6 c 220n
+R2 b nb 39k
+R3 c nb 160
+R1 nb vcc 47
+C2 nb gnd 220n
+L1 c c5 22n
+C3 c gnd 8.2p
+C4 gnd c4 4.7p
+L2 c5 c4 9.1n
+C5 c5 out 1u
+XQ1 c b gnd BFR740L3RH
+.ends TXAMP
