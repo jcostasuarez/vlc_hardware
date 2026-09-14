@@ -51,9 +51,9 @@ alimente la placa. No se ha inferido ninguna de esas tensiones.
 
 ## Estado de revisión
 
-Los informes de DRC/ERC se generan en `build/review/`. Se eliminó un arco de
-cobre colgante en `Receiver/TIA/LTC6268-10`; su respaldo está en
-`build/backups/2026-09-14/`.
+Los informes de DRC/ERC versionados están en `docs/review/` y el informe completo
+en `docs/REVISION_PCB.md`. Se eliminó un arco de cobre colgante en
+`Receiver/TIA/LTC6268-10`; su respaldo local está en `build/backups/2026-09-14/`.
 
 La placa LED tenía dos errores ERC de metadatos de símbolo: GND no declaraba la
 fuente externa y los cátodos de LEDs se definieron como salidas. Ambos se
@@ -64,12 +64,10 @@ Las bibliotecas de huellas y de símbolos quedaron consolidadas: cada proyecto e
 autocontenido y las definiciones embebidas se copiaron verbatim a la biblioteca
 local de su proyecto. Se limpió además la paridad esquema-placa sincronizando los
 campos de la huella con el esquema. Las herramientas son
-`build/audit/vendor_footprints.py`, `build/audit/vendor_symbols.py` y
-`build/audit/sync_schematic_parity.py`; los respaldos están en
-`build/backups/2026-09-14-library-consolidation/`,
-`build/backups/2026-09-14-symbol-consolidation/` y
-`build/backups/2026-09-14-parity-cleanup/`.
+`scripts/vendor_footprints.py`, `scripts/vendor_symbols.py` y
+`scripts/sync_schematic_parity.py`; los respaldos de cada paso se conservan
+localmente (no versionados) en `build/backups/2026-09-14-*`.
 
 Las ocho placas dan ERC y DRC con 0 errores y 0 avisos. Pendiente de fabricación:
 confirmar la pila RF de 1,2 mm y la decisión de no poblar JP1 en `LMH34400`; ver
-`build/review/REPORTE_REVISION.md`.
+`docs/REVISION_PCB.md`.

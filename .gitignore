@@ -34,3 +34,7 @@ build/
 
 # KiCad project lock files
 *.lck
+
+# Python bytecode
+__pycache__/
+*.pyc

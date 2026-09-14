@@ -1,0 +1,112 @@
+
+### LED (11 comps, 5 nets)
+Connectors:
+  J1     RFPC-SMA28-F                             LumiCom_Led:RFPC-SMA28-F
+  J2     RFPC-SMA28-F                             LumiCom_Led:RFPC-SMA28-F
+  J3     Vdc                                      LumiCom_Led:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal
+Power nets:
+  GND                  -> J1, J2, J3, LED1, LED2
+  Net-(J1-In)          -> C1, J1
+  Net-(J2-In)          -> C2, J2
+  Net-(J3-Pin_2)       -> J3, L1
+
+### LMH34400 (24 comps, 14 nets)
+Connectors:
+  J1     TEST                                     LumiCom_TIA:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount
+  J2     PD IN                                    LumiCom_TIA:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount
+  J3     Vout                                     LumiCom_TIA:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal
+  J4     N_EN                                     LumiCom_TIA:PinHeader_1x03_P2.54mm_Vertical
+  J5     N_ALC                                    LumiCom_TIA:PinHeader_1x03_P2.54mm_Vertical
+  J6     OUT                                      LumiCom_TIA:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount
+  JP1    Test                                     LumiCom_TIA:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+Power nets:
+  GND                  -> C1, C3, C4, C5, J1, J2, J3, J4, J5, J6, R3, U1
+  Net-(J1-In)          -> C2, J1, R1
+  Net-(J2-In)          -> J2, JP1, U1
+  Net-(J3-Pin_2)       -> J3, L1
+  Net-(J4-Pin_2)       -> J4, U1
+  Net-(J5-Pin_2)       -> J5, U1
+  Net-(J6-In)          -> C6, J6, R5
+  Net-(JP1-A)          -> JP1, R2
+  VCC                  -> C3, C4, C5, D1, J4, J5, L1, U1
+
+### LTC6268-10 (29 comps, 14 nets)
+Connectors:
+  J1     IN                                       LumiCom_TIA:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount
+  J2     Vout                                     LumiCom_TIA:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal
+  J3     TEST                                     LumiCom_TIA:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount
+  J4     OUT                                      LumiCom_TIA:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount
+  JP1    Test                                     LumiCom_TIA:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+Power nets:
+  GND                  -> C1, C2, C4, C5, C6, J1, J2, J3, J4, R4, R5, SD_L1, U1
+  Net-(J1-In)          -> Cf1, Cf2, J1, JP1, Rf1, U1
+  Net-(J2-Pin_2)       -> J2, L1
+  Net-(J3-In)          -> C3, J3, R1
+  Net-(J4-In)          -> C7, J4, R7
+  Net-(JP1-A)          -> JP1, R2
+  VCC                  -> C2, C4, C5, D1, L1, R3, SD_L1, U1
+
+### LumiCom_Transmitter (38 comps, 22 nets)
+Connectors:
+  J1     V                                        LumiCom_Transmitter:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal
+  J2     IN_B                                     LumiCom_Transmitter:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount
+  J3     IN_A                                     LumiCom_Transmitter:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount
+  J4     OUT_B                                    LumiCom_Transmitter:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount
+  J5     OUT_A                                    LumiCom_Transmitter:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount
+Power nets:
+  GND                  -> C1, C11, C2, C5, C6, C7, C8, J1, J2, J3, J4, J5, JP_A0, JP_A1, R2, R5, R6, U1
+  Net-(J1-Pin_1)       -> J1, L1
+  Net-(J2-In)          -> C3, J2
+  Net-(J3-In)          -> C4, J3
+  Net-(J4-In)          -> J4, R14
+  Net-(J5-In)          -> J5, R13
+  Net-(JP_A0-C)        -> JP_A0, U1
+  Net-(JP_A1-C)        -> JP_A1, U1
+  VCC                  -> C1, C2, C7, D1, JP_A0, JP_A1, L1, R1, R4, U1
+
+### PD (9 comps, 6 nets)
+Connectors:
+  J2     RFPC-SMA28-F                             Lumicom_Photodiode:RFPC-SMA28-F
+  J3     RFPC-SMA28-F                             Lumicom_Photodiode:RFPC-SMA28-F
+  J4     RFPC-SMA28-F                             Lumicom_Photodiode:RFPC-SMA28-F
+  J5     Screw_Terminal_01x02                     Lumicom_Photodiode:TerminalBlock_bornier-2_P5.08mm
+Power nets:
+  GND                  -> C1, D1, J2, J3, J4, J5
+  Net-(J3-In)          -> D2, J3
+  Net-(J5-Pin_2)       -> J5, L1
+
+### preenfasis (24 comps, 12 nets)
+Connectors:
+  J1     SMA H                                    preenfasis:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount
+  J2     SMA H                                    preenfasis:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount
+  J3     SMA H                                    preenfasis:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount
+  J4     SMA H                                    preenfasis:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount
+Power nets:
+  Net-(J1-Ext)         -> C2, J1, J2, L2
+  Net-(J1-In)          -> C1, J1, R1, R3
+  Net-(J2-In)          -> J2, L1, R1, R4
+  Net-(J3-Ext)         -> C4, J3, J4, L4
+  Net-(J3-In)          -> C3, J3, R5, R7
+  Net-(J4-In)          -> J4, L3, R5, R8
+
+### rx_amp (13 comps, 9 nets)
+Connectors:
+  J1     Signal_In                                rx_amp:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount
+  J2     Signal_Out                               rx_amp:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount
+  J3     Screw_Terminal_01x02                     rx_amp:TerminalBlock_RND_205-00001_1x02_P5.00mm_Horizontal
+Power nets:
+  GND                  -> C3, IC1, J1, J2, J3
+  Net-(J1-In)          -> C1, J1
+  Net-(J2-In)          -> C2, J2
+  Net-(J3-Pin_2)       -> J3, L3
+
+### tx_amplifier (20 comps, 10 nets)
+Connectors:
+  J1     Conn_Coaxial                             vlc:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount
+  J2     Conn_Coaxial                             vlc:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount
+  J3     Screw_Terminal_01x02                     vlc:TerminalBlock_bornier-2_P5.08mm
+Power nets:
+  +3.3V                -> J3, R1
+  GND                  -> C2, C3, C4, J1, J2, J3, Q1
+  Net-(J1-In)          -> C1, J1
+  Net-(J2-In)          -> C5, J2
