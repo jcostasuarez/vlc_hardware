@@ -85,7 +85,10 @@ puede simplificar y conviene ajustarla:
    Pitaya (ajustable, sin dispersión de componentes) y dejar una única etapa
    analógica de adaptación. Si se hace en analógico, usar el filtro `PRE` y no
    repetirlo.
-3. **El último estado debe ser un driver de corriente con polarización DC.** Un
+3. **El bias-tee va en la placa LED** (`J3 → L1 → nodo del LED`, con `C1`/`C2`
+   acoplando `J1`/`J2`). Es la forma correcta de sumar polarización DC y RF, pero
+   fija un pasabanda de ≈0,7 MHz a ≈39 MHz; para otra banda hay que redimensionar
+   L1 y C1/C2. El último estado del driver debe ser de corriente con polarización DC. Un
    LED común necesita decenas a cientos de mA y tiene impedancia dinámica de
    pocos ohmios (≈1–5 Ω). Un amplificador de tensión adaptado a 50 Ω entrega muy
    poca corriente de modulación (≈1 mA/V según la simulación). Usar el lazo

@@ -16,7 +16,7 @@ Supuestos de los modelos en `sim/README.md`.
 | `system__link` | 1e+03..1e+09 Hz | 0.682 | 5.25e+07 Hz | 8.71e+07 Hz |
 | `system__rx_chain` | 1e+03..1e+09 Hz | 7.02e+05 | 2.09e+06 Hz | 2.04e+08 Hz |
 | `system__tx_chain` | 1e+04..1e+09 Hz | 0.00101 | 5.25e+07 Hz | 8.51e+07 Hz |
-| `system__tx_chain_fca` | 1e+04..1e+09 Hz | 0.00118 | 9.44e+05 Hz | 1.72e+06 Hz |
+| `system__tx_chain_fca` | 1e+04..1e+09 Hz | 0.00085 | 1.32e+06 Hz | 2.75e+06 Hz |
 | `tx_amplifier` | 1e+03..1e+10 Hz | 6.65 | 1.51e+04 Hz | 4.84e+08 Hz |
 
 ## Transitorio

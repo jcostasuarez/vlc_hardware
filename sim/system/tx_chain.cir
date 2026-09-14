@@ -1,22 +1,22 @@
-* TX chain: Pitaya DAC -> pre-emphasis -> discrete amp -> LED board.
-* Interfaces are 50 ohm SMA.  LED current sensed by Vsense.
+* TX chain: Pitaya DAC -> pre-emphasis -> discrete amp -> BIAS-TEE -> LED.
 .include ../models/bfr740l3rh.lib
 .include ../models/preemphasis.sub
 .include ../models/tx_amp.sub
+.include ../models/bias_tee.sub
+.include ../models/led_equiv.sub
 .param VCC=3.3
 Vsrc src 0 dc 0 ac 1
 Rs   src in 50
 XPRE in p1 0 PREEMPHASIS
 XAMP p1 n1 vcc 0 TXAMP
-L1   vbias n1 206n
 Vbias vbias 0 {VCC} ac 0
-Vsense n1 a 0
-R8   a b 1.35
-L3   b c 0.99n
-R9   c d 0.54
-C4   c d 130n
-R10  d 0 0.39
-C2   n1 mon 0.1u
+Rdcn1 n1 0 1e9
+XBT  n1 vbias nled 0 BIAS_TEE
+Vsense nled a 0
+Cdcl a a2 1u
+Rdc  a 0 1e9
+XLED a2 0 LED_EQ
+C2   nled mon 0.1u
 Rmon mon 0 50
 .ac dec 200 10k 1G
 .end

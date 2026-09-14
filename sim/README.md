@@ -96,7 +96,10 @@ igual que el montaje real:
 | `link_tran` | ídem, transitorio | respuesta temporal |
 
 Subcircuitos reutilizables en `sim/models/`: `preemphasis.sub`, `tx_amp.sub`,
-`fca.sub`, `led_board.sub`, `rx_amp.sub`.
+`fca.sub`, `bias_tee.sub`, `led_equiv.sub`, `rx_amp.sub`. La placa LED entra en
+la cadena como **bias-tee** (`BIAS_TEE`: C1/C2 de acople + L1 de polarización)
+con el LED como carga (`LED_EQ`). El bias-tee de la placa LED tiene un pasabanda
+de ≈0,7 MHz (acople C=0,1 µF con R_LED≈2,3 Ω) a ≈39 MHz (choque L=206 nH).
 
 El enlace óptico se modela con una fuente `F` (`I_pd = K · I_LED`), donde `K`
 agrupa eficiencia del LED, acoplamiento óptico y responsividad del fotodiodo
@@ -105,7 +108,7 @@ realimentación óptica no altere la polarización.
 
 Resultados destacados (ver `docs/sim/RESULTS.md`):
 
-- `tx_chain`: corriente de LED ≈ 1,0 mA/V pico a ≈52 MHz (con preénfasis).
+- `tx_chain`: corriente de LED ≈ 1,0 mA/V pico a ≈52 MHz (con preénfasis y bias-tee).
 - `tx_chain_fca`: pico a ≈0,94 MHz — la red R7/C6 de la FCA corta en ≈32 kHz y
   limita el ancho de banda de TX.
 - `rx_chain`: ≈7·10⁵ V/A (TIA + rx_amp) con −3 dB en ≈204 MHz.

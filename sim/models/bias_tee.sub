@@ -1,0 +1,7 @@
+* LED-board bias-tee (Transmitter/LED/LED.kicad_sch).
+* J3 (bias) -> L1 -> LED node ; J1 -> C1 -> LED node ; J2 -> C2 -> LED node.
+* The LED is the load.  Ports: rf bias led gnd
+.subckt BIAS_TEE rf bias led gnd
+C1 rf led 0.1u
+L1 bias led 206n
+.ends BIAS_TEE

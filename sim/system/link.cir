@@ -1,11 +1,12 @@
 * Full optical link:
-* Pitaya -> pre-emphasis -> discrete amp -> LED -> optical k -> PD -> TIA -> RX amp
-* K = photocurrent / LED current (LED efficiency, coupling and PD responsivity).
+* Pitaya -> pre-emphasis -> discrete amp -> BIAS-TEE -> LED -> optical K -> PD -> TIA -> RX amp
 .include ../models/bfr740l3rh.lib
 .include ../models/lmh34400.lib
 .include ../models/bga616.lib
 .include ../models/preemphasis.sub
 .include ../models/tx_amp.sub
+.include ../models/bias_tee.sub
+.include ../models/led_equiv.sub
 .include ../models/rx_amp.sub
 .param VCC=3.3
 * ---- transmitter ----
@@ -13,21 +14,18 @@ Vsrc src 0 dc 0 ac 1
 Rs   src in 50
 XPRE in p1 0 PREEMPHASIS
 XAMP p1 n1 vcc 0 TXAMP
-L1   vbias n1 206n
 Vbias vbias 0 {VCC} ac 0
-Vsense n1 a 0
-Cdc  a a2 1u
+Rdcn1 n1 0 1e9
+XBT  n1 vbias nled 0 BIAS_TEE
+Vsense nled a 0
+Cdcl a a2 1u
 Rdc  a 0 1e9
-R8   a2 b 1.35
-L3   b c 0.99n
-R9   c d 0.54
-C4   c d 130n
-R10  d 0 0.39
+XLED a2 0 LED_EQ
 * ---- optical link ----
 .param K=1e-3
 Fpd  0 npd Vsense {K}
-Cdc2 npd pd 1u
 Rnpd npd 0 1e9
+Cdc2 npd pd 1u
 Rpd  pd 0 1e9
 Cd   pd 0 1p
 * ---- receiver ----
