@@ -97,9 +97,11 @@ python3 scripts/summarize_sims.py build/sim    # métricas -> docs/sim/RESULTS.m
 
 `scripts/run_spice.py` usa la `libngspice` que viene con KiCad vía `ctypes`; no
 requiere un binario `ngspice`. Incluye respuesta en frecuencia, transitorios y
-**análisis de ruido** de las TIA (`lmh34400`, `ltc6268-10`). Los modelos, los
-supuestos y la fidelidad de cada deck están en [sim/README.md](sim/README.md), y
-los resultados en [docs/sim/RESULTS.md](docs/sim/RESULTS.md).
+**análisis de ruido** de las TIA (`lmh34400`, `ltc6268-10`). Los modelos TI
+(LMH34400, OPA2675) y el BFR740 corren nativos, con los PSpice convertidos por
+`scripts/convert_vendor_model.py`. Los supuestos y la fidelidad de cada deck
+están en [sim/README.md](sim/README.md), y los resultados en
+[docs/sim/RESULTS.md](docs/sim/RESULTS.md).
 
 ## Estado de revisión
 

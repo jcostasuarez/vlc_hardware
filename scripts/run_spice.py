@@ -98,6 +98,7 @@ def run_deck(deck, outdir, vectors, noise=False):
     ng = NgSpice()
     try:
         os.chdir(deck.parent)
+        ng.command('set ngbehavior=ltpsa')
         ng.command('source ' + str(deck))
         ng.command('run')
         ng.command('set wr_singlescale')

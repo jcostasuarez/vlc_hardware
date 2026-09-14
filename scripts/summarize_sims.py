@@ -33,11 +33,20 @@ def tag_of(path):
     return base
 
 
+def rms_density(rows, col):
+    """Trapezoidal integration of a spectral density over frequency."""
+    total = 0.0
+    for a, b in zip(rows, rows[1:]):
+        ya, yb = a[col], b[col]
+        total += 0.5 * (ya * ya + yb * yb) * (b[0] - a[0])
+    return math.sqrt(total)
+
+
 def main():
     outdir = Path(sys.argv[1] if len(sys.argv) > 1 else 'build/sim')
     lines = ['# Resultados de simulación (ngspice)', '',
              f'Generado por `scripts/summarize_sims.py` ({date.today().isoformat()}).',
-             'Los supuestos de cada modelo están en `sim/README.md`.', '',
+             'Supuestos de los modelos en `sim/README.md`.', '',
              '## Respuesta en frecuencia (AC)', '',
              '| Deck | Banda simulada | Pico | Frecuencia del pico | Ancho de banda a -3 dB |',
              '|---|---|---:|---:|---:|']
@@ -61,28 +70,20 @@ def main():
         lines.append(f'| `{tag_of(path)}` | {fmt(max(vals) - min(vals))} V |')
 
     lines += ['', '## Ruido', '',
-              '| Deck | en salida @1 kHz | en salida @1 MHz | in referida @1 kHz | '
-              'en salida rms (1k-500M) | in referida rms |',
-              '|---|---:|---:|---:|---:|---:|']
+              '| Deck | en salida @1 MHz | in referida @1 MHz | en salida rms (banda) | '
+              'in referida rms (banda) |',
+              '|---|---:|---:|---:|---:|']
     for spec in sorted(glob.glob(str(outdir / '*.spectrum.dat'))):
         rows = read_cols(spec, 3)
         if not rows:
             continue
-        tag = os.path.basename(spec)[:-len('.spectrum.dat')]
+        label = os.path.basename(spec)[:-len('.spectrum.dat')].replace('__noise', '')
 
         def at(freq):
             return min(rows, key=lambda r: abs(math.log10(r[0]) - math.log10(freq)))
 
-        on_tot = in_tot = None
-        total = outdir / (tag + '.total.dat')
-        if total.exists():
-            for v in read_cols(total, 3):
-                on_tot, in_tot = v[0], v[2]
-        label = tag.replace('__noise', '').replace('_noise', '')
-        lines.append(f'| `{label}` | {fmt(at(1e3)[1])} V/√Hz | {fmt(at(1e6)[1])} V/√Hz | '
-                     f'{fmt(at(1e3)[2])} A/√Hz | '
-                     f'{fmt(on_tot) + " V" if on_tot else "—"} | '
-                     f'{fmt(in_tot) + " A" if in_tot else "—"} |')
+        lines.append(f'| `{label}` | {fmt(at(1e6)[1])} V/√Hz | {fmt(at(1e6)[2])} A/√Hz | '
+                     f'{fmt(rms_density(rows, 1))} V | {fmt(rms_density(rows, 2))} A |')
 
     Path('docs/sim').mkdir(parents=True, exist_ok=True)
     Path('docs/sim/RESULTS.md').write_text('\n'.join(lines) + '\n')

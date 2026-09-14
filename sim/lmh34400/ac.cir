@@ -1,19 +1,15 @@
-* LMH34400 TIA - AC transimpedance
-* Complete TIA (internal feedback).  Vendor model is PSpice-only, so a
-* board-level TIA block is used (zt/fp from datasheet, see sim/README.md).
-* Board values: R1=49.9, C1=C2=0.1u, R2=4.02k, R4=49.9, C6=0.1u, VCC=3.3V
-.include ../models/opamp_2pole.sub
-.include ../models/tia_block.sub
+* LMH34400 TIA - native TI macro-model (converted to ngspice)
+* Model: sim/models/lmh34400.lib  (IN VDD nEN nIDC_EN GND OUT)
+* Integrated transimpedance gain 40 kohm, BW 240 MHz, CPD = 1 pF.
+* Board: R4=49.9 output back-termination, VCC = 3.3 V.
+.include ../models/lmh34400.lib
 .param VCC=3.3
-Vcc  vcc 0 {VCC}
-* photodiode and input termination
-* photodiode drives the TIA input directly (JP1 closed); R1/C1/R2/C2 are the
-* alternate AC-coupled input on J1 and do not load the TIA in this model.
+Vdd  vdd 0 {VCC}
+Ven  nen 0 0
+Valc nidc 0 3.3
 Iph  0 in ac 1
-Cd   in 0 5p
-Rsh  in 0 1e9
-* TIA core
-XT   in out vcc 0 TIABLK zt=20k fp=240Meg en=2.35n in=2.5p cin=1.5p
+Cd   in 0 1p
+XU1  in vdd nen nidc 0 out LMH34400
 Ro   out o50 49.9
 Rl   o50 0 50
 .ac dec 100 1k 1G

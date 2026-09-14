@@ -1,0 +1,17 @@
+* bga616.lib - Infineon BGA616 behavioural gain block for ngspice
+*
+* There is no publicly released SPICE netlist for the BGA616; the datasheet only
+* publishes a package-equivalent description and Berkeley-SPICE 2G.6 transistor
+* parameters.  This model therefore reproduces the datasheet 50-ohm gain-block
+* behaviour so the board environment can be simulated in ngspice:
+*     - cascadable 50 ohm input/output match (DC to 2.7 GHz)
+*     - 19.0 dB typical gain at 1 GHz (matched transducer gain)
+*     - input/output return loss of about 10..20 dB
+* Pins: IN OUT GND
+*
+.subckt BGA616 IN OUT GND
+Ri  IN  GND 50
+* A = 4 * 10^(19/20) = 35.6  -> 19 dB matched gain in a 50 ohm system
+E1  a   GND IN GND 35.6
+Ro  a   OUT 50
+.ends BGA616

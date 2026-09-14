@@ -1,76 +1,82 @@
 # Simulaciones ngspice
 
-Suite única de simulación para todas las placas VLC, reproducible y sin GUI.
-Reemplaza las simulaciones dispersas en LTspice (`.asc`) y OrCAD PSpice
-(`-PSpiceFiles`) por decks **ngspice** derivados de los esquemas KiCad.
+Suite única de simulación para las placas VLC, reproducible y sin GUI. Reemplaza
+las simulaciones dispersas en LTspice (`.asc`) y OrCAD PSpice (`-PSpiceFiles`)
+por decks **ngspice** derivados de los esquemas KiCad.
 
 ## Cómo correr
 
 ```bash
-# toda la suite -> build/sim/
-scripts/run_all_sims.sh
-
-# un deck puntual
+scripts/run_all_sims.sh                        # toda la suite -> build/sim/
 python3 scripts/run_spice.py sim/ltc6268-10/noise.cir --outdir build/sim --noise
-
-# resumen de métricas -> docs/sim/RESULTS.md
-python3 scripts/summarize_sims.py build/sim
+python3 scripts/summarize_sims.py build/sim    # métricas -> docs/sim/RESULTS.md
 ```
 
-`scripts/run_spice.py` usa la `libngspice` que viene con KiCad, vía `ctypes`
-(no hace falta un binario `ngspice`). Los resultados van a `build/sim/`
-(ignorado por git).
+`scripts/run_spice.py` maneja la `libngspice` que viene con KiCad vía `ctypes`
+(no hace falta un binario `ngspice`). Antes de cargar cada deck hace
+`set ngbehavior=ltpsa` (compatibilidad PSpice/LTspice). Los resultados van a
+`build/sim/` (ignorado por git).
 
 ## Estructura
 
 ```
-sim/models/opamp_2pole.sub   macromodelo de opamp de dos polos
-sim/models/tia_block.sub     bloque TIA (opamp + Rf/Cf interno)
-sim/models/bfr740l3rh.lib    modelo Infineon BFR740L3RH (Gummel-Poon)
-sim/<placa>/<análisis>.cir   decks de análisis
+sim/models/opamp_2pole.sub        opamp de dos polos (datasheet) [fallback]
+sim/models/tia_block.sub          bloque TIA sobre opamp_2pole  [fallback]
+sim/models/bfr740l3rh.lib         Infineon BFR740L3RH (nativo)
+sim/models/lmh34400.lib           TI LMH34400, convertido a ngspice (nativo)
+sim/models/opa2675.lib            TI OPA2675, convertido a ngspice (nativo)
+sim/models/bga616.lib             BGA616, bloque de ganancia 50 Ω (datasheet)
+sim/<placa>/<análisis>.cir        decks de análisis
 ```
 
-## Fidelidad de los modelos
+## Modelos
 
-Las simulaciones originales no eran reproducibles: los proyectos PSpice
-dependían de rutas Windows (`E:\Onedrive\...`) y de netlists (`AC.net`,
-`Noise.net`, `Trans.net`) que no están en el repo; los modelos de fabricante de
-los opamps son específicos de su herramienta y **ngspice no los puede correr**
-(LTC6268-10 usa devices `A` de LTspice; LMH34400/OPA2675 usan `dnlim`/`uplim` y
-devices `S` de PSpice).
+Los modelos de fabricante son específicos de cada herramienta. Estado por placa:
 
-| Deck | Placa | Análisis | Modelo | Fidelidad |
-|---|---|---|---|---|
-| `preenfasis/filtro_t_ac` | `preenfasis` | AC | RLC puros + puerto 50 Ω | **Exacto** (valores del esquema) |
-| `led/bias_t_ac` | `LED` | AC | RLC + equivalente de LED (Li 2019) | **Exacto** (valores del esquema) |
-| `tx_amplifier/ac`, `tran` | `tx_amplifier` | AC, transitorio | BFR740L3RH + red del esquema | **Fiel** (modelo de fabricante ngspice) |
-| `ltc6268-10/ac`, `noise` | `LTC6268-10` | AC, ruido | opamp 2 polos + Rf=3k/Cf=0.2p | Aproximado (macromodelo) |
-| `lmh34400/ac`, `noise` | `LMH34400` | AC, ruido | bloque TIA (Zt interno) | Aproximado (macromodelo) |
-| `fca/ac`, `tran` | `LumiCom_Transmitter` | AC, transitorio | opamp 2 polos (OPA2675) | Aproximado (macromodelo) |
-| `rx_amp/ac` | `rx_amp` | AC | bloque de ganancia 50 Ω / 20 dB | **Placeholder** (sin modelo BGA616 ngspice) |
+| Deck | Placa | Modelo | Estado |
+|---|---|---|---|
+| `preenfasis/filtro_t_ac` | `preenfasis` | RLC puros + puerto 50 Ω | exacto (valores del esquema) |
+| `led/bias_t_ac` | `LED` | RLC + equivalente de LED (Li 2019) | exacto (valores del esquema) |
+| `tx_amplifier/ac`, `tran` | `tx_amplifier` | Infineon **BFR740L3RH** (Gummel-Poon) | **fabricante, nativo** |
+| `lmh34400/ac`, `noise` | `LMH34400` | TI **LMH34400** macro-modelo | **fabricante, convertido** |
+| `fca/ac`, `tran` | `LumiCom_Transmitter` | TI **OPA2675** macro-modelo | **fabricante, convertido** |
+| `rx_amp/ac` | `rx_amp` | **BGA616** bloque de ganancia 50 Ω | datasheet (sin netlist público) |
+| `ltc6268-10/ac`, `noise` | `LTC6268-10` | opamp 2 polos + Rf/Cf | datasheet (ADI solo da LTspice) |
 
-### Supuestos de los macromodelos
+### Conversión de modelos PSpice → ngspice
 
-- `opamp_2pole.sub`: parámetros por datasheet. El ruido de entrada se modela con
-  resistencias térmicas equivalentes (`en² = 4kT·R`, `in² = 4kT/R`) de modo que
-  `.noise` lo contabilice; la rama de ruido de corriente va bufferizada para no
-  cargar la entrada de tierra virtual.
-- `tia_block.sub` (LMH34400): TIA completa con Rf interna. Se asume
-  `Zt = 20 kΩ` y `BW = 240 MHz` (datasheet); `en = 2.35 nV/√Hz` e
-  `in = 2.5 pA/√Hz` extraídos del macro-modelo TI.
-- LTC6268-10: `GBW = 4 GHz`, `en = 4 nV/√Hz`, `in ≈ 1 fA/√Hz` (entrada CMOS).
-- Fotodiodo: `Cd = 5 pF`, `Rsh = 1 GΩ` (representativo de PDB-C154SM/S5971/SFH203).
-- `rx_amp`: el modelo BGA616 disponible es una hoja de datos, no un netlist;
-  se usa un bloque de ganancia de 50 Ω como marcador de posición.
-- `LMH34400` no tiene deck transitorio: el macromodelo no es numéricamente
-  estable en `.tran`. El ruido y la respuesta AC sí se simulan.
+`scripts/convert_vendor_model.py` traduce los modelos TI (sbom…):
+
+- `.MODEL … VSWITCH ROFF/RON/VOFF/VON` → `.MODEL … SW(Roff/Ron/Vt/Vh)`
+- `.MODEL … ISWITCH ROFF/RON/IOFF/ION` → `.MODEL … CSW(Roff/Ron/It/Ih)`
+- `PWR(x,y)` → `((x)**(y))`
+- descarta `noiseless` y `T_ABS`
+
+Genera `sim/models/lmh34400.lib` y `sim/models/opa2675.lib` desde los `.lib`
+originales del repo. Con eso los dos corren 100 % en ngspice y aportan su propio
+ruido interno. El LMH34400 reproduce la ganancia integrada de 40 kΩ (≈20 kΩ
+entregados a 50 Ω) y el OPA2675 la ganancia cerrada de 4,02.
+
+### Modelos no nativos
+
+- **LTC6268-10**: Analog Devices solo publica el modelo de LTspice, que usa
+  devices `A` (OTA/SCHMITT/BUF) y `dnlim/uplim` inexistentes en ngspice. Se usa
+  el macromodelo de dos polos de `sim/models/opamp_2pole.sub` con los datos del
+  datasheet (GBW 4 GHz, en 4 nV/√Hz, in ≈ 1 fA/√Hz, Cin 1.5 pF).
+- **BGA616**: Infineon no publica un netlist; el datasheet solo da el circuito
+  equivalente de encapsulado y los parámetros 2G.6. `sim/models/bga616.lib`
+  reproduce el comportamiento de gain block de 50 Ω y 19 dB (DC–2,7 GHz).
+
+## Supuestos
+
+- Fotodiodo: `Cd = 1 pF` (condición de datasheet del LMH34400) o `5 pF` en el
+  LTC6268-10.
+- LMH34400: ALC activo; el contenido bajo ≈400 kHz se rechaza, por eso el ruido
+  se integra desde 100 kHz.
+- LTC6268-10: `Rf = 3 kΩ`, `Cf = 0.2 pF` (valores del esquema).
 
 ## Ruido
 
-`sim/ltc6268-10/noise.cir` y `sim/lmh34400/noise.cir` corren `.noise` y generan
-`onoise_spectrum`/`inoise_spectrum` y los totales integrados. Los valores
-resumidos están en `docs/sim/RESULTS.md`.
-
-Para un modelo de mayor fidelidad de los opamps hay que obtener una versión
-ngspice de los modelos de fabricante (TI/ADI) o pasar a un modelo a nivel
-transistor, y reemplazar `sim/models/opamp_2pole.sub` y `sim/models/tia_block.sub`.
+`.noise` está en `sim/lmh34400/noise.cir` (modelo TI nativo) y
+`sim/ltc6268-10/noise.cir` (macromodelo). `docs/sim/RESULTS.md` reporta densidad
+espectral a 1 MHz e integrada sobre la banda.

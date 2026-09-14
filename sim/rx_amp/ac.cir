@@ -1,24 +1,20 @@
-* RX amplifier - AC (BGA616)
-* NOTE: the vendor BGA616 model is a datasheet/PSpice model that ngspice
-* cannot run.  The amplifier is modelled as a 50-ohm, 20 dB gain block so that
-* the board coupling/bias network can be simulated; replace XAMP with the
-* vendor model when an ngspice-compatible one is available.
-* Board values: C1=C2=0.1u, L1=L2=10uH, R1=15, L3 ferrite.
+* RX amplifier - AC (BGA616 buffer / gain block)
+* Board values from Receiver/AMP/rx_amp.kicad_sch:
+*   C1=C2=0.1u coupling, L1=L2=10uH bias feed, R1=15, L3 ferrite, VCC=5V.
+* The BGA616 has no public SPICE netlist; sim/models/bga616.lib is a
+* datasheet-based 50-ohm, 19 dB gain block.
+.include ../models/bga616.lib
 .param VCC=5
 Vcc  vcc 0 {VCC}
 Vin  src 0 dc 0 ac 1
 Rs   src in 50
 C1   in amp_in 0.1u
-* 50-ohm gain block (BGA616 placeholder, G = 10 -> 20 dB)
-Ri   amp_in 0 50
-E1   a 0 amp_in 0 10
-Ro   a amp_out 50
-* bias feed
-L1   n3 vb 10u
-R1   n3 vb 15
+XB   amp_in amp_out 0 BGA616
+L1   n3 n1b 10u
+R1   n3 n1a 15
 L3   vcc n3 0.22u
 C3   n3 0 0.1u
-L2   vb amp_out 10u
+L2   n1b amp_out 10u
 C2   amp_out out 0.1u
 Rl   out 0 50
 .ac dec 100 100k 10G
