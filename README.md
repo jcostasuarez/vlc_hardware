@@ -104,8 +104,10 @@ están en [sim/README.md](sim/README.md), y los resultados en
 [docs/sim/RESULTS.md](docs/sim/RESULTS.md).
 
 Además de cada placa, `sim/system/` interconecta la cadena completa
-(`tx_chain`, `tx_chain_fca`, `rx_chain`, `link`) con interfaces de 50 Ω, incluido
-el enlace óptico LED → fotodiodo.
+(`tx_chain`, `tx_chain_fca`, `rx_chain`, `link`, `link_channel`) con interfaces de
+50 Ω, incluido el **canal óptico LED → fotodiodo con distancia paramétrica**. El
+presupuesto de enlace y cómo ganar alcance están en
+[docs/VLC_ALCANCE.md](docs/VLC_ALCANCE.md) (`scripts/vlc_link_budget.py`).
 
 ## Estado de revisión
 

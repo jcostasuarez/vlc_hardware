@@ -133,9 +133,11 @@ Resultados destacados (ver `docs/sim/RESULTS.md`):
 ## Canal óptico LED ↔ fotodiodo (distancia paramétrica)
 
 `sim/system/optical_channel.cir` modela el enlace óptico LOS (Lambertiano en
-eje): `i_pd = K·i_LED`, con `K = K0/D²` (ley del cuadrado inverso) y `D` la
-distancia en metros (`K0` = fotocorriente/corriente de LED a 1 m; calibración
-absoluta libre). La demora `D/c` es solo fase para un canal de frecuencia única y
+eje): `i_pd = K·i_LED`, con `K = G·K0/D²` (ley del cuadrado inverso) y `D` la
+distancia en metros (`K0` = fotocorriente/corriente de LED a 1 m; `G` =
+ganancia óptica de recolección, p. ej. una lente). El alcance y las mejoras se
+analizan en [docs/VLC_ALCANCE.md](../docs/VLC_ALCANCE.md) con
+`scripts/vlc_link_budget.py`. La demora `D/c` es solo fase para un canal de frecuencia única y
 no cambia la magnitud.
 
 `sim/system/link_channel.cir` es la **cadena completa** con ese canal:

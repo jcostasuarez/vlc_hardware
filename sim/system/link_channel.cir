@@ -12,7 +12,9 @@
 * optical channel (parametric distance)
 .param D=0.5
 .param K0=1e-3
-.param K={K0/(D*D)}
+* G = ganancia optica de recoleccion (lente/concentrador)
+.param G=1
+.param K={K0*G/(D*D)}
 * ---- transmitter ----
 Vsrc src 0 dc 0 ac 1
 Rs   src in 50

@@ -1,10 +1,12 @@
 * Optical channel LED -> free space -> photodiode (LOS, on-axis Lambertian).
 * Parametric distance D [m].  K0 = photocurrent/LED current at D = 1 m.
-* Received power ~ 1/D^2.  The propagation delay D/c is a pure phase term for
+* Received power ~ G/D^2 (G = optical collection gain).  The propagation delay D/c is a pure phase term for
 * a single-frequency channel and does not change the magnitude.
 .param D=0.5
 .param K0=1e-3
-.param K={K0/(D*D)}
+* G = ganancia optica de recoleccion (lente/concentrador)
+.param G=1
+.param K={K0*G/(D*D)}
 * LED modulation current (1 A AC), sensed by a 0 V source
 Iled 0 a ac 1
 Vs   a 0 0
